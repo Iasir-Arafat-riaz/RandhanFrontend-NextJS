@@ -27,7 +27,7 @@ const AlwaysWorking = () => {
                 <li>
                   <div className="icon">
                     <span>
-                      <TiTick size={70} />
+                      <TiTick size={20} />
                     </span>
                   </div>
                   <div className="text">
@@ -37,7 +37,7 @@ const AlwaysWorking = () => {
                 <li>
                   <div className="icon">
                     <span>
-                      <TiTick size={70} />
+                      <TiTick size={20} />
                     </span>
                   </div>
                   <div className="text">

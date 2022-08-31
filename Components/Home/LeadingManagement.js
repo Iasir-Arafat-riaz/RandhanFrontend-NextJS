@@ -46,7 +46,7 @@ const LeadingManagement = () => {
                             <ul className="list-unstyled leading-waste__points">
                                 <li>
                                     <div className="icon">
-                                        <span className="fa fa-check"> <TiTick size={70}/></span>
+                                        <span className="fa fa-check"> <TiTick size={20}/></span>
                                     </div>
                                     <div className="text">
  <p>Lorem Ipsum is not simply random text</p>
@@ -54,7 +54,7 @@ const LeadingManagement = () => {
                                 </li>
                                 <li>
                                     <div className="icon">
-                                        <span className="fa fa-check"><TiTick size={70}/></span>
+                                        <span className="fa fa-check"><TiTick size={20}/></span>
                                     </div>
                                     <div className="text">
                                         <p>Making this the first true generator on the Internet</p>
@@ -62,7 +62,7 @@ const LeadingManagement = () => {
                                 </li>
                                 <li>
                                     <div className="icon">
-                                        <span className="fa fa-check"><TiTick size={70}/></span>
+                                        <span className="fa fa-check"><TiTick size={20}/></span>
                                     </div>
                                     <div className="text">
                                         <p>Various versions have evolved over the years</p>
