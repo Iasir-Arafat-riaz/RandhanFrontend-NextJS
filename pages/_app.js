@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
         {/* <Navigation/> */}
         <NavBar />
         <Layout>
-        <Component {...pageProps} />
+          <Component {...pageProps} />
         </Layout>
         <Footer />
       </section>
