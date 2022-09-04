@@ -3,6 +3,7 @@ import AlwaysWorking from "../Components/About/AlwaysWorking";
 import ExpertStaff from "../Components/About/ExpertStaff";
 import HomeOrBusiness from "../Components/About/HomeOrBusiness";
 import WhyChossUs from "../Components/About/WhyChossUs";
+import SeoForAll from "../Components/ForSeo/SeoForAll";
 import BrandsServed from "../Components/Home/BrandsServed/BrandsServed";
 import Testimonial from "../Components/Home/Testimonial";
 import AboutHEader from "./../Components/About/AboutHEader";
@@ -10,6 +11,7 @@ import AboutHEader from "./../Components/About/AboutHEader";
 function About() {
   return (
     <>
+    <SeoForAll title="About | Rondhan"/>
       <AboutHEader />
       <AlwaysWorking />
       
