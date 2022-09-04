@@ -283,6 +283,7 @@
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    
     .videoContent{
         position: relative;
     }
@@ -653,6 +654,9 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+    .job-item{
+        text-align: center;
+    }
     .videoContent{
         position: relative;
     }

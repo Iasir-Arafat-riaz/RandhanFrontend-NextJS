@@ -1,13 +1,35 @@
 import CareerHeader from "../../Components/Career/CareerHeader";
 import BrandsServed from "../../Components/Home/BrandsServed/BrandsServed";
 import Counter from "../../Components/Home/Counter";
-
-const Career =()=>{
-
-    return<>
-    <CareerHeader/>
-    <Counter/>
-    <BrandsServed/>
+import axios from "axios";
+import Jobs from "../../Components/Career/Jobs";
+const Career = ({ data }) => {
+  console.log("hilu", data?.rows);
+  return (
+    <>
+      <CareerHeader />
+      <Jobs allJobs={data?.rows}/>
+      <Counter />
+      <BrandsServed />
     </>
-}
+  );
+};
 export default Career;
+
+export async function getServerSideProps() {
+  const config = {
+    headers: {
+      Authorization:
+        "Basic Y29uY2F2ZWl0QGdtYWlsLmNvbTp2Ynp0OVEtbVpUN0stRzhmVG1tLXBLZXpw",
+    },
+  };
+  const res = await axios(
+    `http://rondhan-admin.vmsl.com.bd/sximoapi?module=vacancyannouncement`,
+    config
+  );
+  return {
+    props: {
+      data: res?.data,
+    },
+  };
+}

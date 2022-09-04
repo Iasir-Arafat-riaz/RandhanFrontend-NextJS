@@ -1,0 +1,26 @@
+
+.serial-text{
+background-color:var(--wostin-base);
+padding: 20px 30px;
+font-size: 30px;
+display:inline-block;
+color: var(--wostin-primary) ;
+}
+.job-item{
+    background-color:var(--wostin-gray);
+    
+    margin-top: 15px;
+}
+.job-desc{
+    color: black;
+}
+.jobApplyBtn{
+    border: 0;
+    padding: 7px 13px;
+    background-color:var(--wostin-base);
+    color: var(--wostin-primary);
+}
+.jobApplyBtn:hover{
+    background-color: var(--wostin-primary);
+    color: var(--wostin-base);
+}

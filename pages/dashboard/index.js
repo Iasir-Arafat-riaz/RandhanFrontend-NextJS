@@ -4,7 +4,6 @@ import DashboardLayout from "../../layouts/dashboardLayout";
 const Dashboard = () => {
   //here is dashboard root
     return ( 
-
         <div className="MotherDashboard">
       </div>
     );
