@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import axios from "Axios";
+import axios from "axios";
 const ApplyJob = ({ id }) => {
   // console.log(id);
   const [info, setInfo] = useState(null);
