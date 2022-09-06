@@ -89,7 +89,7 @@ const ApplyJob = ({ id }) => {
           </div>
 
           <div className="col-xl-6 col-lg-6 col-md-6">
-            <div className="contact-one__form-input-box text-message-box">
+            <div className="contact-one__form-input-box">
               <textarea
                 required
                 onChange={infoChange}
@@ -98,9 +98,10 @@ const ApplyJob = ({ id }) => {
               ></textarea>
             </div>
           </div>
-          <div className="col-xl-6 col-lg-6 col-md-6">
-            <div className="contact-one__form-input-box">
+          <div className="col-xl-6 col-lg-6 col-md-6 ">
+            <div >
               <input
+              style={{width:"100%"}}
                 onChange={infoChange}
                 name="cv"
                 type="file"

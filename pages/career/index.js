@@ -6,8 +6,8 @@ import Jobs from "../../Components/Career/Jobs";
 import SeoForAll from "../../Components/ForSeo/SeoForAll";
 
 
-const Career = ({ data }) => {
-  // console.log("hilu", data?.rows);
+const Career = ({data}) => {
+  console.log("hilu", data?.rows);
   return (
     <>
       <SeoForAll title="Career|Rondhan" />
