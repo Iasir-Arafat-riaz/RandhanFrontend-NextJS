@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import axios from "Axios";
+import axios from "axios";
 const ApplyJob = ({ id }) => {
   // console.log(id);
   const [info, setInfo] = useState(null);
@@ -8,6 +8,7 @@ const ApplyJob = ({ id }) => {
 
     console.log(info);
     // info.id = id;
+    //here authorization key
     const config = {
       headers: {
         Authorization:
