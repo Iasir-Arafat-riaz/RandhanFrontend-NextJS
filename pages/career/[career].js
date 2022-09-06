@@ -1,11 +1,16 @@
 import axios from "axios";
+import ApplyJob from "../../Components/Career/ApplyJob";
 const SingleJob = ({ data }) => {
   console.log("here datas", data);
-  const { title,description } = data;
+  const { title, description,id } = data;
   return (
     <div className="m-5">
       <h2 className="m-5">{title}</h2>
-      <div dangerouslySetInnerHTML={{__html: description}} />
+      <div dangerouslySetInnerHTML={{ __html: description }} />
+      {/* job apply form */}
+      <div>
+        <ApplyJob id={id} />
+      </div>
     </div>
   );
 };

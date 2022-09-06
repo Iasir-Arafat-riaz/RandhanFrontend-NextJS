@@ -17,7 +17,7 @@ const ContactWithUs = () => {
               <div className="section-title text-left">
                 <span className="section-title__tagline">Contact With Us</span>
                 <h2 className="section-title__title">
-                  Have Questions? Feel Free to Write 
+                  Have Questions? Feel Free to Write
                 </h2>
               </div>
               <p className="contact-one__text">
@@ -70,8 +70,8 @@ const ContactWithUs = () => {
               >
                 <div className="row">
                   <div className="col-xl-6 col-lg-6 col-md-6">
-                    <div className="contact-one__form-input-box">
-                      <input type="text" placeholder="Your name" name="name" />
+                    <div  className="contact-one__form-input-box">
+                      <input required type="text" placeholder="Your name" name="name" />
                     </div>
                   </div>
                   <div className="col-xl-6 col-lg-6 col-md-6">
@@ -80,6 +80,7 @@ const ContactWithUs = () => {
                         type="email"
                         placeholder="Email address"
                         name="email"
+                        required
                       />
                     </div>
                   </div>
@@ -89,12 +90,13 @@ const ContactWithUs = () => {
                         type="text"
                         placeholder="Phone number"
                         name="phone"
+                        required
                       />
                     </div>
                   </div>
                   <div className="col-xl-6 col-lg-6 col-md-6">
                     <div className="contact-one__form-input-box">
-                      <input type="text" placeholder="Subject" name="subject" />
+                      <input type="text" placeholder="Subject" name="subject" required />
                     </div>
                   </div>
                 </div>
@@ -104,6 +106,7 @@ const ContactWithUs = () => {
                       <textarea
                         name="message"
                         placeholder="Write message"
+                        required
                       ></textarea>
                     </div>
                     <div className="contact-one__btn-box">

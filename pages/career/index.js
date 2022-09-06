@@ -5,13 +5,15 @@ import axios from "axios";
 import Jobs from "../../Components/Career/Jobs";
 import SeoForAll from "../../Components/ForSeo/SeoForAll";
 
+
 const Career = ({ data }) => {
   // console.log("hilu", data?.rows);
   return (
     <>
-   <SeoForAll title="Career|Rondhan"/>
+      <SeoForAll title="Career|Rondhan" />
       <CareerHeader />
-      <Jobs allJobs={data?.rows}/>
+      <Jobs allJobs={data?.rows} />
+
       <Counter />
       <BrandsServed />
     </>
