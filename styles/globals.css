@@ -17,8 +17,13 @@
 # Common
 --------------------------------------------------------------*/
 @font-face {
+  font-family: nexa;
+  src: url('/NexaLight.otf');
+  
+ }
+@font-face {
   font-family: nexaBold;
-  src: url('/NexaBold.ttf');
+  src: url('/NexaBold.otf');
   
  }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
@@ -51,12 +56,12 @@
 }
 
 body {
-  font-family: "nexaBold";
+  font-family: "nexa";
 
-  color: var(--wostin-gray);
+  /* color: var(--wostin-gray); */
   font-size: 16px;
   line-height: 30px;
-  font-weight: 500;
+  font-weight: 900;
 }
 
 body.locked {
@@ -10329,6 +10334,7 @@ li {
 .main-nav a {
   font-size: 56.5%;
   letter-spacing: 2px; 
+  font-family: nexaBold;
 }
 .main-nav p {
   font-size: 62.5%;

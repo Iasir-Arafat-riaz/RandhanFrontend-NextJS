@@ -71,14 +71,14 @@ const ContactWithUs = () => {
                 <div className="row">
                   <div className="col-xl-6 col-lg-6 col-md-6">
                     <div  className="contact-one__form-input-box">
-                      <input required type="text" placeholder="Your name" name="name" />
+                      <input required type="text" placeholder="Your Name" name="name" />
                     </div>
                   </div>
                   <div className="col-xl-6 col-lg-6 col-md-6">
                     <div className="contact-one__form-input-box">
                       <input
                         type="email"
-                        placeholder="Email address"
+                        placeholder="Email Address"
                         name="email"
                         required
                       />
@@ -88,7 +88,7 @@ const ContactWithUs = () => {
                     <div className="contact-one__form-input-box">
                       <input
                         type="text"
-                        placeholder="Phone number"
+                        placeholder="Phone Number"
                         name="phone"
                         required
                       />
@@ -105,7 +105,7 @@ const ContactWithUs = () => {
                     <div className="contact-one__form-input-box text-message-box">
                       <textarea
                         name="message"
-                        placeholder="Write message"
+                        placeholder="Write Message"
                         required
                       ></textarea>
                     </div>

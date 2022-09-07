@@ -99,9 +99,9 @@ const ApplyJob = ({ id }) => {
             </div>
           </div>
           <div className="col-xl-6 col-lg-6 col-md-6 ">
-            <div >
+            <div>
               <input
-              style={{width:"100%"}}
+                style={{ width: "100%" }}
                 onChange={infoChange}
                 name="cv"
                 type="file"
