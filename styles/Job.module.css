@@ -1,17 +1,17 @@
 
-.serial-text{
+.serialText{
 background-color:var(--wostin-base);
 padding: 20px 30px;
 font-size: 30px;
 display:inline-block;
 color: var(--wostin-primary) ;
 }
-.job-item{
+.jobItem{
     background-color:var(--wostin-gray);
     
     margin-top: 15px;
 }
-.job-desc{
+.jobDesc{
     color: black;
 }
 .jobApplyBtn{
@@ -21,6 +21,15 @@ color: var(--wostin-primary) ;
     color: var(--wostin-primary);
 }
 .jobApplyBtn:hover{
-    background-color: var(--wostin-primary);
-    color: var(--wostin-base);
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    
+}
+
+.jobItem:hover{
+    background-color:var(--wostin-primary);
+  }
+.jobItem:hover .serial-text{
+  border: 2px solid white;
 }
