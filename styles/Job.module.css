@@ -1,35 +1,33 @@
+.serialText {
+  background-color: var(--wostin-base);
+  padding: 20px 30px;
+  font-size: 30px;
+  display: inline-block;
+  color: var(--wostin-primary);
+}
+.jobItem {
+  background-color: var(--wostin-gray);
 
-.serialText{
-background-color:var(--wostin-base);
-padding: 20px 30px;
-font-size: 30px;
-display:inline-block;
-color: var(--wostin-primary) ;
+  margin-top: 15px;
 }
-.jobItem{
-    background-color:var(--wostin-gray);
-    
-    margin-top: 15px;
+.jobDesc {
+  color: black;
 }
-.jobDesc{
-    color: black;
+.jobApplyBtn {
+  border: 0;
+  padding: 7px 13px;
+  background-color: var(--wostin-base);
+  color: var(--wostin-primary);
 }
-.jobApplyBtn{
-    border: 0;
-    padding: 7px 13px;
-    background-color:var(--wostin-base);
-    color: var(--wostin-primary);
-}
-.jobApplyBtn:hover{
-    background-color: black;
-    color: white;
-    border: 1px solid white;
-    
+.jobApplyBtn:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
 }
 
-.jobItem:hover{
-    background-color:var(--wostin-primary);
-  }
-.jobItem:hover .serial-text{
+.jobItem:hover {
+  background-color: var(--wostin-primary);
+}
+.jobItem:hover .serialText {
   border: 2px solid white;
 }

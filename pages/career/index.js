@@ -5,8 +5,7 @@ import axios from "axios";
 import Jobs from "../../Components/Career/Jobs";
 import SeoForAll from "../../Components/ForSeo/SeoForAll";
 
-
-const Career = ({data}) => {
+const Career = ({ data }) => {
   console.log("hilu", data?.rows);
   return (
     <>
