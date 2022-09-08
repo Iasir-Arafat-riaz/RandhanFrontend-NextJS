@@ -12,15 +12,15 @@ config.autoAddCss = false;
 
 function MyApp({ Component, pageProps }) {
   // console.log(pageProps,Component)
-  const Layout = Component.Layout || EmptyLayout;
+  
   return (
     <>
       <section>
         {/* <Navigation/> */}
         <NavBar />
-        <Layout>
+        
           <Component {...pageProps} />
-        </Layout>
+       
         <Footer />
       </section>
     </>
@@ -28,4 +28,4 @@ function MyApp({ Component, pageProps }) {
 }
 export default MyApp;
 
-const EmptyLayout = ({ children }) => <>{children}</>;
+
