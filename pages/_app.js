@@ -12,20 +12,18 @@ config.autoAddCss = false;
 
 function MyApp({ Component, pageProps }) {
   // console.log(pageProps,Component)
-  
+
   return (
     <>
       <section>
         {/* <Navigation/> */}
         <NavBar />
-        
-          <Component {...pageProps} />
-       
+
+        <Component {...pageProps} />
+
         <Footer />
       </section>
     </>
   );
 }
 export default MyApp;
-
-

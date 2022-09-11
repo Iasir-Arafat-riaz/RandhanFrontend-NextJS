@@ -6,7 +6,6 @@ import { useEffect } from "react";
 import SeoForAll from "../../Components/ForSeo/SeoForAll";
 
 const Products = () => {
-  
   const [value, setValue] = useState("");
 
   const inputData = (e) => {
@@ -23,17 +22,15 @@ const Products = () => {
 
   return (
     <div>
-        <SeoForAll title="Products | Rondhan"/>
+      <h1 className="text-center">Here is our all products</h1>
+      <SeoForAll title="Products | Rondhan" />
       <BrandsServed />
-      <form className="p-5 bg-danger" onSubmit={handleSubmit}>
+      {/* <form className="p-5 bg-danger" onSubmit={handleSubmit}>
         <input onChange={inputData} type="text"></input>
         <input type="submit"></input>
-      </form>
+      </form> */}
     </div>
   );
 };
 
 export default Products;
-
-
-

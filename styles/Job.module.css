@@ -6,7 +6,7 @@
   color: var(--wostin-primary);
 }
 .jobItem {
-  background-color: var(--wostin-gray);
+  background-color: var(--wostin-extra);
 
   margin-top: 15px;
 }
@@ -30,4 +30,7 @@
 }
 .jobItem:hover .serialText {
   border: 2px solid white;
+}
+.jobDiv{
+  padding: 30px;
 }

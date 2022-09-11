@@ -11,13 +11,13 @@ const Job = ({ title, post_date, id }) => {
   return (
     <div>
       <div className={`${styles.jobItem}`}>
-        <div className="row p-4 ">
-          <div className="col-md-2 ">
+        <div className={`row ${styles.jobDiv} jobPAdding`}>
+          <div className="col-md-2 careerSerial">
             <span className={`${styles.serialText}`}>{id}</span>
           </div>
-          <div className={`col-md-8 ${styles.jobDesc}`}>
-            <p>Post Date : {post_date}</p>
-            <p>{title}</p>
+          <div className={`col-md-8 ${styles.jobDesc} `}>
+            <p className="careerSerial">Post Date : {post_date}</p>
+            <p className="careerSerial">{title}</p>
           </div>
           <div className="col-md-2 d-flex justify-content-center align-items-center">
             <button className={`${styles.jobApplyBtn}`} onClick={handleApply}>

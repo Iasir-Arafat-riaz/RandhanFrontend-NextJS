@@ -50,7 +50,7 @@ const AlwaysWorking = () => {
                   <div className="always-working__count"></div>
                   <div className="always-working__content">
                     <h3>
-                      Going Above <br /> and Beyond
+                      Going Above <br/> and Beyond
                     </h3>
                   </div>
                 </li>
@@ -58,7 +58,7 @@ const AlwaysWorking = () => {
                   <div className="always-working__count"></div>
                   <div className="always-working__content">
                     <h3>
-                      Committed to <br /> People First
+                      Committed to <br/> People First
                     </h3>
                   </div>
                 </li>

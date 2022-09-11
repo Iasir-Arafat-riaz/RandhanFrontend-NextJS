@@ -1,8 +1,9 @@
 import React from 'react';
-import { HiOutlineCalculator } from 'react-icons/hi';
-import { BiCalendar } from 'react-icons/bi';
-import { GiNuclearWaste } from 'react-icons/gi';
-import { RiRecycleLine } from 'react-icons/ri';
+import { MdPrecisionManufacturing } from 'react-icons/md';
+import { GiFarmer } from 'react-icons/gi';
+import { GiCow } from 'react-icons/gi';
+
+import { GiFlatfish } from 'react-icons/gi';
 
 
 const FeatureOne = () => {
@@ -11,27 +12,27 @@ const FeatureOne = () => {
             <div className="container">
                 <div className="feature-one__inner">
                     <ul className="list-unstyled feature-one__list">
-                        <li className="feature-one__single wow fadeInUp" data-wow-delay="100ms">
+                        <li className="feature-one__single " data-wow-delay="100ms">
                             <div className="feature-one__icon">
-                                <span className="icon-budget"><HiOutlineCalculator/></span>
+                                <span className="icon-budget"><MdPrecisionManufacturing/></span>
                             </div>
                             <h3 className="feature-one__title "><a href="about.html">Manufacturing</a></h3>
                         </li>
-                        <li className="feature-one__single wow fadeInUp" data-wow-delay="200ms">
+                        <li className="feature-one__single " data-wow-delay="200ms">
                             <div className="feature-one__icon">
-                                <span className="icon-calendar"><BiCalendar/></span>
+                                <span className="icon-calendar"><GiFarmer/></span>
                             </div>
-                            <h3 className="feature-one__title "><a href="about.html">Firming</a></h3>
+                            <h3 className="feature-one__title "><a href="about.html">Farming</a></h3>
                         </li>
-                        <li className="feature-one__single wow fadeInUp" data-wow-delay="300ms">
+                        <li className="feature-one__single " data-wow-delay="300ms">
                             <div className="feature-one__icon">
-                                <span className="icon-garbage"><GiNuclearWaste/></span>
+                                <span className="icon-garbage"><GiCow/></span>
                             </div>
                             <h3 className="feature-one__title "><a href="about.html">Cattle</a></h3>
                         </li>
-                        <li className="feature-one__single wow fadeInUp" data-wow-delay="400ms">
+                        <li className="feature-one__single " data-wow-delay="400ms">
                             <div className="feature-one__icon">
-                                <span className="icon-garbage-truck"><RiRecycleLine/></span>
+                                <span className="icon-garbage-truck"><GiFlatfish/></span>
                             </div>
                             <h3 className="feature-one__title "><a href="about.html">Fisheries</a></h3>
                         </li>
