@@ -1,9 +1,9 @@
 import React from "react";
-import BrandsServed from "../../Components/Home/BrandsServed/BrandsServed";
+import BrandsServed from "Components/Home/BrandsServed/BrandsServed";
 import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
-import SeoForAll from "../../Components/ForSeo/SeoForAll";
+import SeoForAll from "Components/ForSeo/SeoForAll";
 
 const Products = () => {
   const [value, setValue] = useState("");

@@ -1,9 +1,9 @@
-import Footer from "../Components/Footer/Footer";
+import Footer from "Components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/globals.css";
+import "styles/globals.css";
 
-import "../styles/notFoundPage.css";
-import "../styles/responsive/customRes.css";
+import "styles/notFoundPage.css";
+import "styles/responsive/customRes.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import Navigation from "../Components/Navigation/Navigation";

@@ -1,9 +1,9 @@
-import CareerHeader from "../../Components/Career/CareerHeader";
-import BrandsServed from "../../Components/Home/BrandsServed/BrandsServed";
-import Counter from "../../Components/Home/Counter";
+import CareerHeader from "Components/Career/CareerHeader";
+import BrandsServed from "Components/Home/BrandsServed/BrandsServed";
+import Counter from "Components/Home/Counter";
 import axios from "axios";
-import Jobs from "../../Components/Career/Jobs";
-import SeoForAll from "../../Components/ForSeo/SeoForAll";
+import Jobs from "Components/Career/Jobs";
+import SeoForAll from "Components/ForSeo/SeoForAll";
 
 const Career = ({ data }) => {
   console.log("hilu", data?.rows);
