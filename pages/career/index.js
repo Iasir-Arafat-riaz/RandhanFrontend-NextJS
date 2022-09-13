@@ -9,7 +9,7 @@ const Career = ({ data }) => {
   console.log("hilu", data?.rows);
   return (
     <>
-      <SeoForAll title="Career|Rondhan" />
+      <SeoForAll title="Career|Rondhan"/>
       <CareerHeader />
       <Jobs allJobs={data?.rows} />
 
