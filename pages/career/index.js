@@ -19,7 +19,7 @@ const Career = ({ data }) => {
   );
 };
 export default Career;
-
+//SSR
 export async function getServerSideProps() {
   const config = {
     headers: {
