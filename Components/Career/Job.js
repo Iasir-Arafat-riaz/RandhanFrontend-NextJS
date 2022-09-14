@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import React from "react";
-import styles from "../../styles/Job.module.css"
+import styles from "../../styles/Job.module.css";
 
 const Job = ({ title, post_date, id }) => {
   const router = useRouter();
@@ -16,7 +16,7 @@ const Job = ({ title, post_date, id }) => {
             <span className={`${styles.serialText}`}>{id}</span>
           </div>
           <div className={`col-md-8 ${styles.jobDesc} `}>
-            <p className="careerSerial">Post Date : {post_date}</p>
+            <p className="careerSerial">Post Date:{post_date}</p>
             <p className="careerSerial">{title}</p>
           </div>
           <div className="col-md-2 d-flex justify-content-center align-items-center">

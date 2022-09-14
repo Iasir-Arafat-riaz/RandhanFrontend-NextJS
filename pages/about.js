@@ -9,11 +9,12 @@ import Testimonial from "../Components/Home/Testimonial";
 import AboutHEader from "./../Components/About/AboutHEader";
 
 function About() {
-  
- 
+  const date = new Date();
+  console.log("my date", date.getTime());
+
   return (
     <>
-    <SeoForAll title="About | Rondhan"/>
+      <SeoForAll title="About | Rondhan" />
       <AboutHEader />
       <AlwaysWorking />
       <AboutMiddleBg />

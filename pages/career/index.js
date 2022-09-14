@@ -24,7 +24,7 @@ export async function getServerSideProps() {
   const config = {
     headers: {
       Authorization:
-        "Basic Y29uY2F2ZWl0QGdtYWlsLmNvbTp2Ynp0OVEtbVpUN0stRzhmVG1tLXBLZXpw",
+        `${process.env.CAREER_KEY}`,
     },
   };
   const res = await axios(
