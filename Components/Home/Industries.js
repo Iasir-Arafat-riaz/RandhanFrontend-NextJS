@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import industryImg1 from "../../styles/images/resource/industy-page-header-img.jpg";
-import industryImg2 from "../../styles/images/resource/industries-1-2.jpg";
-import industryImg3 from "../../styles/images/resource/industries-1-3.jpg";
+import industryImg1 from "../../styles/images/resource/consumer.jpg";
+import industryImg2 from "../../styles/images/resource/empwerment.png";
+import industryImg3 from "../../styles/images/resource/employment.png";
 import {FaHotel} from "react-icons/fa"
 import {FaStethoscope} from "react-icons/fa"
 import {SiHomeassistantcommunitystore} from "react-icons/si"
@@ -56,7 +56,7 @@ const Industries = () => {
           >
             <div className="industries-one__single">
               <div className="industries-one__img">
-                <Image style={{ height: "1500px" }} src={industryImg1} alt="" />
+                <Image style={{ height: "1500px" }} src={industryImg2} alt="" />
               </div>
               <div className="industries-one__content">
                 <div className="industries-one__icon">
@@ -83,7 +83,7 @@ const Industries = () => {
           >
             <div className="industries-one__single">
               <div className="industries-one__img">
-                <Image style={{ height: "1500px" }} src={industryImg1} alt="" />
+                <Image style={{ height: "1500px" }} src={industryImg3} alt="" />
               </div>
               <div className="industries-one__content">
                 <div className="industries-one__icon">

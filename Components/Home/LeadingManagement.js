@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
-import leadingImg from "../../styles/images/resource/leading-waste-img-1.jpg";
+import leadingImg from "../../styles/images/resource/exp.png";
 import leadingImgShape from "../../styles/images/resource/leading-waste-img-shape-1.png";
 import leadingImgShapeDots from "../../styles/images/resource/leading-waste-dots.png";
 
@@ -24,7 +24,7 @@ const LeadingManagement = () => {
                 </div>
                 <div className="leading-waste__experience">
                   <p>
-                    <span>18+</span> <br /> Years of <br /> Experience
+                    <span>08+</span> <br /> Years of <br /> Experience
                   </p>
                 </div>
                 <div className="leading-waste__img-shape-1 float-bob-x">
@@ -46,11 +46,11 @@ const LeadingManagement = () => {
                   Get to Know About Us
                 </span>
                 <h2 className="section-title__title">
-                  Leading in Waste disposal Management Services
+                  Leading in Cattle Industries and Food Management Services
                 </h2>
               </div>
               <p className="leading-waste__text">
-                We’re in this business <span>Since 1987</span> and we provide
+                We’re in this business <span>Since 2013</span> and we provide
                 the best services
               </p>
               <ul className="list-unstyled leading-waste__points">

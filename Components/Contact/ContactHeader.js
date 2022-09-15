@@ -1,5 +1,5 @@
 import React from "react";
-import contactHeaderImg from "../../public/Images/backgroundImg/page-header-bg.jpg";
+import contactHeaderImg from "public/Images/backgroundImg/contact-banner.png";
 
 import Link from 'next/link'
 

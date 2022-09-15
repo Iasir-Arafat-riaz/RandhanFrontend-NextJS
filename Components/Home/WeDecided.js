@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import weDecImg1 from "../../styles/images/resource/we-dedicated-img.jpg";
+import weDecImg1 from "styles/images/resource/experties.png";
 import {BiRightArrow} from "react-icons/bi"
 
 const WeDecided = () => {

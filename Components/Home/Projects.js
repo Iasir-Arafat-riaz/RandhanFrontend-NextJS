@@ -1,10 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import projBg from "../../styles/images/background/industries-one-bg.jpg";
-import projectImg1 from "../../styles/images/resource/project-1-1.jpg";
-import projectImg2 from "../../styles/images/resource/project-1-2.jpg";
-import projectImg3 from "../../styles/images/resource/project-1-3.jpg";
-import projectImg4 from "../../styles/images/resource/project-1-4.jpg";
+import projectImg1 from "styles/images/resource/project1.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Projects = () => {
@@ -52,7 +49,7 @@ const Projects = () => {
             {/* Project One Single */}
             <div className="project-one__single">
               <div className="project-one__img">
-                <Image src={projectImg2} alt="img" />
+                <Image src={projectImg1} alt="img" />
               </div>
               <div className="project-one__content">
                 <p className="project-one__sub-title">Waste Pickup</p>
@@ -74,7 +71,7 @@ const Projects = () => {
             {/* Project One Single */}
             <div className="project-one__single">
               <div className="project-one__img">
-                <Image src={projectImg3} alt="img" />
+                <Image src={projectImg1} alt="img" />
               </div>
               <div className="project-one__content">
                 <p className="project-one__sub-title">Waste Pickup</p>
@@ -96,7 +93,7 @@ const Projects = () => {
             {/* Project One Single */}
             <div className="project-one__single">
               <div className="project-one__img">
-                <Image src={projectImg4} alt="img" />
+                <Image src={projectImg1} alt="img" />
               </div>
               <div className="project-one__content">
                 <p className="project-one__sub-title">Waste Pickup</p>

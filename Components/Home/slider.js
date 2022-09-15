@@ -8,12 +8,12 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 import Image from "next/image";
 
 //import images from existing folder
-import first from"../../styles/images/background/main-slider-1-1.jpg"
-import second from "../../styles/images/background/main-slider-1-2.jpg"
-import third from"../../styles/images/background/main-slider-1-3.jpg"
-import fourth from"../../styles/images/background/main-slider-2-1.jpg"
-import fifth from"../../styles/images/background/main-slider-2-2.jpg"
-import sixth from"../../styles/images/background/main-slider-2-3.jpg"
+import first from"styles/images/background/backg1.png"
+import second from "styles/images/background/backg2.png"
+import third from"styles/images/background/backg3.png"
+import fourth from"styles/images/background/backg4.png"
+import fifth from"styles/images/background/backg5.png"
+import sixth from"styles/images/background/backg6.png"
 
 function Slider(){
   console.log(first);
