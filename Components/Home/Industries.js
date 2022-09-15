@@ -36,7 +36,7 @@ const Industries = () => {
                   <span className="icon-shop"><FaHotel/></span>
                 </div>
                 <h3 className="industries-one__title">
-                  <a href="industry-details.html">Consumer</a>
+                  <a href="industry-details.html">CONSUMER</a>
                 </h3>
                 <p className="industries-one__text">
                   Sed quia magni dolores eos ratione voluptatem sequi site, qui
@@ -63,7 +63,7 @@ const Industries = () => {
                   <span className="icon-grocery"><FaStethoscope/></span>
                 </div>
                 <h3 className="industries-one__title">
-                  <a href="industry-details.html">Empowerment</a>
+                  <a href="industry-details.html">EMPOWERMENT</a>
                 </h3>
                 <p className="industries-one__text">
                   Sed quia magni dolores eos ratione voluptatem sequi site, qu
@@ -90,7 +90,7 @@ const Industries = () => {
                   <span className="icon-grocery"><SiHomeassistantcommunitystore/></span>
                 </div>
                 <h3 className="industries-one__title">
-                  <a href="industry-details.html">Employement</a>
+                  <a href="industry-details.html">EMPLOYMENT</a>
                 </h3>
                 <p className="industries-one__text">
                   Sed quia magni dolores eos ratione voluptatem sequi site, qui

@@ -54,7 +54,7 @@ const ServiceProvide = () => {
                 </div>
                 <Card.Body>
                   <h4 className="text-center serviceName">
-                    <b>Farmer</b>
+                    <b>FARMER</b>
                   </h4>
                   <Card.Text className="text-center">
                     We bundle everything a farmer needs to maximize profit:
@@ -72,7 +72,7 @@ const ServiceProvide = () => {
                 </div>
                 <Card.Body>
                   <h4 className="text-center serviceName">
-                    <b>Buyer</b>
+                    <b>BUYER</b>
                   </h4>
                   <Card.Text className="text-center">
                     We source directly from the farmers and supply agriculture
@@ -90,7 +90,7 @@ const ServiceProvide = () => {
                 </div>
                 <Card.Body>
                   <h4 className="text-center serviceName">
-                    <b>Funder</b>
+                    <b>FUNDER</b>
                   </h4>
                   <Card.Text className="text-center">
                     We use technology and data to enable institutions and
@@ -108,7 +108,7 @@ const ServiceProvide = () => {
                 </div>
                 <Card.Body>
                   <h4 className="text-center serviceName">
-                    <b>Retailer</b>
+                    <b>RETAILER</b>
                   </h4>
                   <Card.Text className="text-center">
                     We work with agricultural input companies and service

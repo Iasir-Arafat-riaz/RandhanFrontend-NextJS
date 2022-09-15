@@ -16,14 +16,14 @@ const ContactWithUs = () => {
             <div className="contact-one__left">
               <div className="section-title text-left">
                 <span className="section-title__tagline">Contact With Us</span>
-                <h2 className="section-title__title">
+                {/* <h2 className="section-title__title">
                   Have Questions? Feel Free to Write
-                </h2>
+                </h2> */}
               </div>
-              <p className="contact-one__text">
+              {/* <p className="contact-one__text">
                 Lorem ipsum dolor sit amet, consectetur notted adipis not icing
                 elit sed do eiusmod tempor incididunt.
-              </p>
+              </p> */}
               <ul className="list-unstyled contact-one__info">
                 <li>
                   <div className="icon">
@@ -33,7 +33,7 @@ const ContactWithUs = () => {
                   </div>
                   <div className="text">
                     <p>Call Anytime</p>
-                    <a href="tel:12463330088">+ 1 - (246) 333-0088</a>
+                    <a href="tel:12463330088">+8801711991713</a>
                   </div>
                 </li>
                 <li>
@@ -44,7 +44,7 @@ const ContactWithUs = () => {
                   </div>
                   <div className="text">
                     <p>Write Email</p>
-                    <a href="mailto:needhelp@wostin.com">needhelp@wostin.com</a>
+                    <a href="mailto:needhelp@wostin.com">rondhan@gmail.com</a>
                   </div>
                 </li>
                 <li>
@@ -55,7 +55,7 @@ const ContactWithUs = () => {
                   </div>
                   <div className="text">
                     <p>Visit Us Anytime</p>
-                    <span>880 Broklyn Street New York. USA</span>
+                    <span>House 54/A, road 134, Gulshan</span>
                   </div>
                 </li>
               </ul>

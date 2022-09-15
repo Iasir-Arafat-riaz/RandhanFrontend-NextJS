@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import bg from "../../public/Images/footer/footer.jpg";
-import footerLogo from "./footerImg/footer-logo.png";
+import footerLogo from "styles/images/logo-1.png";
 
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -110,22 +110,22 @@ const Footer = () => {
                 data-wow-delay="200ms"
               >
                 <div className="footer-widget__column footer-widget__links clearfix">
-                  <h3 className="footer-widget__title">Links</h3>
+                  <h3 className="footer-widget__title">LINKS</h3>
                   <ul className="footer-widget__links-list list-unstyled clearfix">
                     <li>
                       <Link href="/about">
-                        <a>About</a>
+                        <a>ABOUT</a>
                       </Link>
                     </li>
 
                     <li>
-                      <Link href="/products">products</Link>
+                      <Link href="/products">PRODUCTS</Link>
                     </li>
                     <li>
-                      <Link href="/sustainability">Sustainability</Link>
+                      <Link href="/sustainability">SUSTAINABILITY</Link>
                     </li>
                     <li>
-                      <Link href="/career">Career</Link>
+                      <Link href="/career">CAREER</Link>
                     </li>
                     {/* <li>
                       
@@ -140,7 +140,7 @@ const Footer = () => {
                 data-wow-delay="300ms"
               >
                 <div className="footer-widget__column footer-widget__services clearfix">
-                  <h3 className="footer-widget__title">Services</h3>
+                  <h3 className="footer-widget__title">SERVICES</h3>
                   <ul className="footer-widget__services-list list-unstyled clearfix">
                     <li>
                       <Link href="/">Dumpster Rentals</Link>
@@ -162,9 +162,9 @@ const Footer = () => {
                 data-wow-delay="400ms"
               >
                 <div className="footer-widget__column footer-widget__contact clearfix">
-                  <h3 className="footer-widget__title">Contact</h3>
+                  <h3 className="footer-widget__title">CONTACT</h3>
                   <p className="footer-widget__contact-text">
-                    880 Broklyn Road Street, New Town DC 5002, New York. USA
+                    House 54/A, Road 132, Gulshan, Dhaka
                   </p>
                   <div className="footer-widget__contact-info">
                     <div className="footer-widget__contact-icon">
@@ -182,7 +182,7 @@ const Footer = () => {
                           href="tel:2463330088"
                           className="footer-widget__contact-phone"
                         >
-                          +8801711133388
+                          +8801711991713
                         </a>
                       </p>
                     </div>
