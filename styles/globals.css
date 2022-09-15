@@ -562,8 +562,8 @@ ul {
 
 .feature-one__icon {
   position: absolute;
-  height: 130px;
-  width: 130px;
+  height: 110px;
+  width: 110px;
   background-color: var(--wostin-base);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -576,7 +576,7 @@ ul {
   justify-content: center;
   border-radius: 50%;
   margin: 0 auto;
-  top: -153px;
+  top: -130px;
   left: 0;
   right: 0;
   z-index: 1;
