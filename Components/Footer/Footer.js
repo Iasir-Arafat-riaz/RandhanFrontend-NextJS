@@ -113,19 +113,20 @@ const Footer = () => {
                   <h3 className="footer-widget__title">LINKS</h3>
                   <ul className="footer-widget__links-list list-unstyled clearfix">
                     <li>
-                      <Link href="/about">
-                        <a>ABOUT</a>
+                      <Link href="/about/whoWeAre">
+                        <a>WHO WE ARE</a>
                       </Link>
                     </li>
 
                     <li>
                       <Link href="/products">PRODUCTS</Link>
                     </li>
-                    <li>
-                      <Link href="/sustainability">SUSTAINABILITY</Link>
-                    </li>
+                    
                     <li>
                       <Link href="/career">CAREER</Link>
+                    </li>
+                    <li>
+                      <Link href="/contact">CONTACT</Link>
                     </li>
                     {/* <li>
                       
@@ -140,19 +141,19 @@ const Footer = () => {
                 data-wow-delay="300ms"
               >
                 <div className="footer-widget__column footer-widget__services clearfix">
-                  <h3 className="footer-widget__title">SERVICES</h3>
+                  <h3 className="footer-widget__title">PROJECTS</h3>
                   <ul className="footer-widget__services-list list-unstyled clearfix">
                     <li>
-                      <Link href="/">Dumpster Rentals</Link>
+                      <Link href="/projects/manufacturing">MANUFACTURING</Link>
                     </li>
                     <li>
-                      <Link href="/">Bulk Trash Pickup</Link>
+                      <Link href="/projects/farming">FARMING</Link>
                     </li>
                     <li>
-                      <Link href="/">Waste Removal</Link>
+                      <Link href="/projects/cattle">CATTLE</Link>
                     </li>
                     <li>
-                      <Link href="/">Zero Waste</Link>
+                      <Link href="/projects/fisheries">FISHERIES</Link>
                     </li>
                   </ul>
                 </div>

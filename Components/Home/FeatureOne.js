@@ -4,6 +4,7 @@ import { GiFarmer } from "react-icons/gi";
 import { GiCow } from "react-icons/gi";
 
 import { GiFlatfish } from "react-icons/gi";
+import Link from "next/link";
 
 const FeatureOne = () => {
   return (
@@ -18,7 +19,7 @@ const FeatureOne = () => {
                 </span>
               </div>
               <h3 className="feature-one__title ">
-                <a href="about.html">MANUFACTURING</a>
+                <Link href="projects/manufacturing"><a >MANUFACTURING</a></Link>
               </h3>
             </li>
             <li className="feature-one__single " data-wow-delay="200ms">
@@ -28,7 +29,7 @@ const FeatureOne = () => {
                 </span>
               </div>
               <h3 className="feature-one__title ">
-                <a href="about.html">FARMING</a>
+              <Link href="projects/farming"><a>FARMING</a></Link>
               </h3>
             </li>
             <li className="feature-one__single " data-wow-delay="300ms">
@@ -38,7 +39,7 @@ const FeatureOne = () => {
                 </span>
               </div>
               <h3 className="feature-one__title ">
-                <a href="about.html">CATTLE</a>
+                <Link href="projects/cattle"><a >CATTLE</a></Link>
               </h3>
             </li>
             <li className="feature-one__single " data-wow-delay="400ms">
@@ -48,7 +49,7 @@ const FeatureOne = () => {
                 </span>
               </div>
               <h3 className="feature-one__title ">
-                <a href="about.html">FISHERIES</a>
+                <Link href="projects/fisheries"><a >FISHERIES</a></Link>
               </h3>
             </li>
           </ul>

@@ -10707,6 +10707,14 @@ video {
   height: 100px;
 }
 
-
+.prodButton{
+  border: 0px;
+  padding: 5px;
+  background-color: var(--wostin-primary);
+}
+.prodButton:hover{
+  background-color: var(--wostin-base);
+  color: white;
+}
 
 /*# sourceMappingURL=wostin.css.map */

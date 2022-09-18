@@ -1,8 +1,10 @@
 import BrandsServed from "Components/Home/BrandsServed/BrandsServed";
+import CommonBanner from "Components/sustainability/CommonBanner";
+import economicalBanner from "public/Images/sustainability/economicalBanner.png"
 
 const Economical = () => {
     return ( <>
-    <h1>Economical component from sustainability</h1>
+    <CommonBanner headerBanner={economicalBanner} title={"Economical"}/>
     <BrandsServed />
     </> );
 }

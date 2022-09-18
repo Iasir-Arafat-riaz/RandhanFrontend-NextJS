@@ -4,6 +4,9 @@ import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
 import SeoForAll from "Components/ForSeo/SeoForAll";
+import ProductCards from "Components/Products/ProductCards";
+import prodBanner from "public/Images/products/products.png"
+import CommonBanner from "Components/sustainability/CommonBanner";
 
 const Products = () => {
   const [value, setValue] = useState("");
@@ -22,8 +25,10 @@ const Products = () => {
 
   return (
     <div>
-      <h1 className="text-center">Here is our all products</h1>
+      
       <SeoForAll title="Products | Rondhan" />
+      <CommonBanner headerBanner={prodBanner} title={"PRODUCTS"}/>
+      <ProductCards/>
       <BrandsServed />
       {/* <form className="p-5 bg-danger" onSubmit={handleSubmit}>
         <input onChange={inputData} type="text"></input>
