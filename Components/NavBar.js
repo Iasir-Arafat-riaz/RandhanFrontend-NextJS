@@ -9,6 +9,7 @@ import {
   FaYoutubeSquare,
 } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { NavDropdown } from "react-bootstrap";
 
 const NavBar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -39,15 +40,34 @@ const NavBar = () => {
             <li className={router.pathname == "/projects" ? "activeu" : ""}>
               <Link href="/projects">PROJECTS</Link>
             </li>
-            <li
+            {/* <li
               className={router.pathname == "/sustainability" ? "activeu" : ""}
             >
               <Link href="/sustainability">SUSTAINABILITY</Link>
+            </li> */}
+            
+            <li >
+            <NavDropdown title="SUSTAINABILITY" id="navbarScrollingDropdown ">
+              <p className={router.pathname == "/sustainability/strategy" ? "activeu" : ""}><Link className="strategyLink" href="/sustainability/strategy"> STRATEGY</Link></p>
+              <NavDropdown.Divider />
+              <p className={router.pathname == "/sustainability/economical" ? "activeu" : ""}><Link href="/sustainability/economical">
+              ECONOMICAL
+              </Link></p>
+              <NavDropdown.Divider />
+              <p className={router.pathname == "/sustainability/social" ? "activeu" : ""}><Link href="/sustainability/social">
+              SOCIAL
+              </Link></p>
+              <NavDropdown.Divider />
+              <p className={router.pathname == "/sustainability/environmental" ? "activeu" : ""}>
+              <Link  href="/sustainability/environmental">
+              ENVIRONMENTAL
+              </Link>
+              </p>
+            </NavDropdown>
             </li>
             <li className={router.pathname == "/career" ? "activeu" : ""}>
               <Link href="/career">CAREER</Link>
             </li>
-
             <li className={router.pathname == "/contact" ? "activeu" : ""}>
               <Link href="/contact">CONTACT</Link>
             </li>

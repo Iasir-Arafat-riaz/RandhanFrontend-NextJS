@@ -1,7 +1,7 @@
 import React from "react";
 import contactHeaderImg from "public/Images/backgroundImg/contact-banner.png";
 
-import Link from 'next/link'
+import Link from "next/link";
 
 const ContactHeader = () => {
   console.log(contactHeaderImg.src);
