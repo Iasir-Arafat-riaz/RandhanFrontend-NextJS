@@ -5727,12 +5727,13 @@ ul {
 
 .team-one__title {
   font-size: 14px;
+  padding-bottom: 10px;
 }
 
 .team-one__name {
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 700;
-  line-height: 42px;
+  line-height: 12px;
 }
 
 .team-one__social-box {
@@ -10724,11 +10725,24 @@ video {
 .prodButton{
   border: 0px;
   padding: 5px;
-  background-color: var(--wostin-primary);
+  /* background-color: var(--wostin-primary); */
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  outline: none !important;
+  background-color: var(--wostin-base);
+  color:  var(--wostin-primary);
+  font-size: 16px;
+  font-weight: 700;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  overflow: hidden;
+  z-index: 1;
 }
 .prodButton:hover{
-  background-color: var(--wostin-base);
-  color: white;
+  color: var(--wostin-black);
+  background-color: var(--wostin-primary);
 }
 
 /*# sourceMappingURL=wostin.css.map */
