@@ -10408,11 +10408,25 @@ li {
 
   font-weight: 500;
 }
+.main-nav ul li{
+  display: flex;
+justify-content: center;
+align-items: center;
+font-size: 25px;
+}
 
 .menu-link ul li p{
 padding-left: 20px;
 font-size: 20px;
+padding-top: 5px;
+padding-bottom: 5px;
+
 }
+
+.menu-link ul li p:hover{
+ background-color: var(--wostin-primary);
+}
+
 
 .menu-link ul li:hover > a {
   transform-origin: left;

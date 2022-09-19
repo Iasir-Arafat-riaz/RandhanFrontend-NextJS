@@ -21,7 +21,7 @@ const AboutMiddleBg = () => {
           <div className="col-xl-12">
             <div className="manage-waste__inner">
               <h3 className="manage-waste__title">
-                Manage Waste Ef-fectively <br /> and Reduce Environmental Impact
+               Manage Agri Businesses <br /> to maximize their profit.
               </h3>
               <div className="manage-waste__btn-box">
                 <a

@@ -18,7 +18,7 @@ const Industries = () => {
       <div className="industries-one-bg" style={styling}></div>
       <div className="container">
         <div className="section-title text-center">
-          <span className="section-title__tagline">We Cover Industries</span>
+          <span className="section-title__tagline">WE COVER INDUSTRIES</span>
           <h2 className="section-title__title">Industries We Served</h2>
         </div>
         <div className="row">

@@ -32,70 +32,128 @@ const NavBar = () => {
         >
           <ul>
             <li>
-            <NavDropdown title="ABOUT" id="navbarScrollingDropdown ">
-              <p className={router.pathname == "/about/whoWeAre" ? "activeu" : ""}><Link  href="/about/whoWeAre"> WHO WE ARE</Link></p>
-              <NavDropdown.Divider />
-              <p className={router.pathname == "/about/ourCulture" ? "activeu" : ""}><Link href="/about/ourCulture">
-              OUR CULTURE
-              </Link></p>
-              <NavDropdown.Divider />
-              <p className={router.pathname == "/about/ourTeam" ? "activeu" : ""}><Link href="/about/ourTeam">
-              OUR TEAM
-              </Link></p>
-              <NavDropdown.Divider />
-              <p className={router.pathname == "/about/membership" ? "activeu" : ""}>
-              <Link  href="/about/membership">
-              MEMBERSHIP
-              </Link>
-              </p>
-            </NavDropdown>
+              <NavDropdown title="ABOUT" id="navbarScrollingDropdown ">
+                <p
+                  className={
+                    router.pathname == "/about/whoWeAre" ? "activeu" : ""
+                  }
+                >
+                  <Link href="/about/whoWeAre"> WHO WE ARE</Link>
+                </p>
+                {/* <NavDropdown.Divider /> */}
+                <p
+                  className={
+                    router.pathname == "/about/ourCulture" ? "activeu" : ""
+                  }
+                >
+                  <Link href="/about/ourCulture">OUR CULTURE</Link>
+                </p>
+                {/* <NavDropdown.Divider /> */}
+                <p
+                  className={
+                    router.pathname == "/about/ourTeam" ? "activeu" : ""
+                  }
+                >
+                  <Link href="/about/ourTeam">OUR TEAM</Link>
+                </p>
+                {/* <NavDropdown.Divider /> */}
+                <p
+                  className={
+                    router.pathname == "/about/membership" ? "activeu" : ""
+                  }
+                >
+                  <Link href="/about/membership">MEMBERSHIP</Link>
+                </p>
+              </NavDropdown>
             </li>
             <li className={router.pathname == "/products" ? "activeu" : ""}>
               <Link href="/products">PRODUCTS</Link>
             </li>
-            <li >
-            <NavDropdown title="PROJECTS" id="navbarScrollingDropdown ">
-              <p className={router.pathname == "/projects/manufacturing" ? "activeu" : ""}><Link  href="/projects/manufacturing"> MANUFACTURING</Link></p>
-              <NavDropdown.Divider />
-              <p className={router.pathname == "/projects/farming" ? "activeu" : ""}><Link href="/projects/farming">
-              FARMING
-              </Link></p>
-              <NavDropdown.Divider />
-              <p className={router.pathname == "/projects/cattle" ? "activeu" : ""}><Link href="/projects/cattle">
-              CATTLE
-              </Link></p>
-              <NavDropdown.Divider />
-              <p className={router.pathname == "/projects/fisheries" ? "activeu" : ""}>
-              <Link  href="/projects/fisheries">
-              FISHERIES
-              </Link>
-              </p>
-            </NavDropdown>
+            <li>
+              <NavDropdown title="PROJECTS" id="navbarScrollingDropdown ">
+                <p
+                  className={
+                    router.pathname == "/projects/manufacturing"
+                      ? "activeu"
+                      : ""
+                  }
+                >
+                  <Link href="/projects/manufacturing"> MANUFACTURING</Link>
+                </p>
+                {/* <NavDropdown.Divider /> */}
+                <p
+                  className={
+                    router.pathname == "/projects/farming" ? "activeu" : ""
+                  }
+                >
+                  <Link href="/projects/farming">FARMING</Link>
+                </p>
+                {/* <NavDropdown.Divider /> */}
+                <p
+                  className={
+                    router.pathname == "/projects/cattle" ? "activeu" : ""
+                  }
+                >
+                  <Link href="/projects/cattle">CATTLE</Link>
+                </p>
+                {/* <NavDropdown.Divider /> */}
+                <p
+                  className={
+                    router.pathname == "/projects/fisheries" ? "activeu" : ""
+                  }
+                >
+                  <Link href="/projects/fisheries">FISHERIES</Link>
+                </p>
+              </NavDropdown>
             </li>
             {/* <li
               className={router.pathname == "/sustainability" ? "activeu" : ""}
             >
               <Link href="/sustainability">SUSTAINABILITY</Link>
             </li> */}
-            
-            <li >
-            <NavDropdown title="SUSTAINABILITY" id="navbarScrollingDropdown ">
-              <p className={router.pathname == "/sustainability/strategy" ? "activeu" : ""}><Link  href="/sustainability/strategy"> STRATEGY</Link></p>
-              <NavDropdown.Divider />
-              <p className={router.pathname == "/sustainability/economical" ? "activeu" : ""}><Link href="/sustainability/economical">
-              ECONOMICAL
-              </Link></p>
-              <NavDropdown.Divider />
-              <p className={router.pathname == "/sustainability/social" ? "activeu" : ""}><Link href="/sustainability/social">
-              SOCIAL
-              </Link></p>
-              <NavDropdown.Divider />
-              <p className={router.pathname == "/sustainability/environmental" ? "activeu" : ""}>
-              <Link  href="/sustainability/environmental">
-              ENVIRONMENTAL
-              </Link>
-              </p>
-            </NavDropdown>
+
+            <li>
+              <NavDropdown title="SUSTAINABILITY" id="navbarScrollingDropdown ">
+                <p
+                  className={
+                    router.pathname == "/sustainability/strategy"
+                      ? "activeu"
+                      : ""
+                  }
+                >
+                  <Link href="/sustainability/strategy"> STRATEGY</Link>
+                </p>
+                {/* <NavDropdown.Divider /> */}
+                <p
+                  className={
+                    router.pathname == "/sustainability/economical"
+                      ? "activeu"
+                      : ""
+                  }
+                >
+                  <Link href="/sustainability/economical">ECONOMICAL</Link>
+                </p>
+                {/* <NavDropdown.Divider /> */}
+                <p
+                  className={
+                    router.pathname == "/sustainability/social" ? "activeu" : ""
+                  }
+                >
+                  <Link href="/sustainability/social">SOCIAL</Link>
+                </p>
+                {/* <NavDropdown.Divider /> */}
+                <p
+                  className={
+                    router.pathname == "/sustainability/environmental"
+                      ? "activeu"
+                      : ""
+                  }
+                >
+                  <Link href="/sustainability/environmental">
+                    ENVIRONMENTAL
+                  </Link>
+                </p>
+              </NavDropdown>
             </li>
             <li className={router.pathname == "/career" ? "activeu" : ""}>
               <Link href="/career">CAREER</Link>

@@ -26,10 +26,10 @@ const ServiceProvide = () => {
               <div className="services-one__top-left">
                 <div className="section-title text-left">
                   <span className="section-title__tagline">
-                    What We’re Offering
+                    WHAT WE ARE OFFERING
                   </span>
                   <h2 className="section-title__title">
-                    The Services We’re Providing <br /> to Our Customers
+                    The Services We’re Providing  to Our Customers
                   </h2>
                 </div>
               </div>
@@ -37,9 +37,8 @@ const ServiceProvide = () => {
             <div className="col-xl-5 col-lg-5">
               <div className="services-one__top-right">
                 <p className="services-one__top-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  quis nostrud exercitation ullamco laboris.
+                  RONDHAN is a technology company that enables small-scale
+                  farmers and Agri Businesses to maximize their profit.
                 </p>
               </div>
             </div>
