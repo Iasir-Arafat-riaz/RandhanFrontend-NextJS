@@ -24,7 +24,7 @@ const LeadingManagement = () => {
                 </div>
                 <div className="leading-waste__experience">
                   <p>
-                    <span>08+</span> <br /> Years of <br /> Experience
+                    <span>03+</span> <br /> Years of <br /> Experience
                   </p>
                 </div>
                 <div className="leading-waste__img-shape-1 float-bob-x">
@@ -43,14 +43,14 @@ const LeadingManagement = () => {
                             </div> */}
               <div className="section-title text-left">
                 <span className="section-title__tagline">
-                  Get to Know About Us
+                  WE COVERED
                 </span>
-                <h2 className="section-title__title">
+                {/* <h2 className="section-title__title">
                   Leading in Cattle Industries and Food Management Services
-                </h2>
+                </h2> */}
               </div>
               <p className="leading-waste__text">
-                We’re in this business <span>Since 2013</span> and we provide
+                We’re in this business <span>Since 2019</span> and we provide
                 the best services
               </p>
               <ul className="list-unstyled leading-waste__points">

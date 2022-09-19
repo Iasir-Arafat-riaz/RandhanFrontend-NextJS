@@ -14,10 +14,10 @@ const Projects = () => {
       </div>
       <div className="project-one__container">
         <div className="section-title text-center">
-          <span className="section-title__tagline">Recent Closed Projects</span>
-          <h2 className="section-title__title">
+          <h2 className="section-title__title">RECENT PROJECTS</h2>
+          {/* <h2 className="section-title__title">
             Recently We Successfully Completed <br /> Some Remarkable Projects
-          </h2>
+          </h2> */}
         </div>
         <div className="row">
           <div

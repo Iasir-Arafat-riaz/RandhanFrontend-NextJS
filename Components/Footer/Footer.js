@@ -25,11 +25,11 @@ const Footer = () => {
           }}
         ></div>
         {/* <Image src={bg}></Image> */}
-        <div className="site-footer__top">
+        {/* <div className="site-footer__top">
           <div className="container">
             <div className="site-footer__top-inner">
               <div className="site-footer__top-logo">
-                {/* <a href="index.html"><img src="assets/images/resources/footer-logo.png" alt=""></a> */}
+
                 <Link href="/">
                   <a>
                     <Image src={footerLogo} />
@@ -69,7 +69,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="site-footer__middle">
           <div className="container">
             <div className="row">
@@ -78,14 +78,19 @@ const Footer = () => {
                 data-wow-delay="100ms"
               >
                 <div className="footer-widget__column footer-widget__about">
-                  <h3 className="footer-widget__title">About</h3>
+                  <Link href="/">
+                  <a>
+                    <Image src={footerLogo} />
+                  </a>
+                </Link>
+                  <h4 className="footer-widget__title">ABOUT RONDHAN</h4>
                   <div className="footer-widget__about-text-box">
                     <p className="footer-widget__about-text">
                       Lorem ipsum dolor sited ame etur adi pisicing elit tempor
                       labore.
                     </p>
                   </div>
-                  <form className="footer-widget__newsletter-form">
+                  {/* <form className="footer-widget__newsletter-form">
                     <div className="footer-widget__newsletter-input-box">
                       <input
                         type="email"
@@ -102,7 +107,7 @@ const Footer = () => {
                         />
                       </button>
                     </div>
-                  </form>
+                  </form> */}
                 </div>
               </div>
               <div
@@ -206,7 +211,7 @@ const Footer = () => {
               <div className="col-xl-12">
                 <div className="site-footer__bottom-inner">
                   <p className="site-footer__bottom-text">
-                    © Copyright 2022 by <a href="#">Rondhan.com</a>
+                    <b>© Copyright 2022 <a href="#">Rondhan.com</a> Developed by VMSL</b>
                   </p>
                 </div>
               </div>

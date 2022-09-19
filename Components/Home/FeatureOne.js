@@ -52,6 +52,16 @@ const FeatureOne = () => {
                 <Link href="projects/fisheries"><a >FISHERIES</a></Link>
               </h3>
             </li>
+            <li className="feature-one__single " data-wow-delay="400ms">
+              <div className="feature-one__icon">
+                <span className="icon-garbage-truck">
+                  <GiFlatfish size={50}/>
+                </span>
+              </div>
+              <h3 className="feature-one__title ">
+                <Link href="projects/handicraft"><a > HANDICRAFT</a></Link>
+              </h3>
+            </li>
           </ul>
         </div>
       </div>

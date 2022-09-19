@@ -21,12 +21,12 @@ const Testimonial = () => {
           <div className="col-xl-5 col-lg-5">
             <div className="testimonial-one__left">
               <div className="section-title text-left">
-                <span className="section-title__tagline">
+                {/* <span className="section-title__tagline">
                   Our Customers Feedbacks
+                </span> */}
+                <span className="section-title__tagline">
+                  FEEDBACK
                 </span>
-                <h2 className="section-title__title">
-                  What Our Customers Are Talking ABout Our Services
-                </h2>
               </div>
               <p className="testimonial-one__text-1">
                 Proin a lacus arcu. Nullam id dui eu orci maximus. Cras at

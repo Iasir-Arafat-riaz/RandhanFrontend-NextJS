@@ -205,8 +205,8 @@ ul {
   vertical-align: middle;
   -webkit-appearance: none;
   outline: none !important;
-  background-color: var(--wostin-primary);
-  color: var(--wostin-black);
+  background-color: var(--wostin-base);
+  color: var(--wostin-primary);
   font-size: 16px;
   font-weight: 700;
   padding: 17px 50px 16px;
@@ -217,7 +217,7 @@ ul {
 }
 
 .thm-btn:hover {
-  color: var(--wostin-primary);
+  color: var(--wostin-black);
   background-color: transparent;
 }
 
@@ -228,7 +228,7 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--wostin-base);
+  background-color: var(--wostin-primary);
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transition: all 0.2s linear;
@@ -254,24 +254,16 @@ ul {
   position: relative;
   display: inline-block;
   color: var(--wostin-base);
-  font-size: 16px;
+  font-size: 30px;
   margin-top: 2px;
 }
 
-.section-title__tagline::before {
-  position: absolute;
-  top: 15px;
-  right: -29px;
-  background-color: var(--wostin-primary);
-  width: 20px;
-  height: 2px;
-  content: "";
-}
+
 
 .section-title__title {
   margin: 0;
-  font-size: 1.4em;
-  line-height: 73px;
+  font-size: 2em;
+  line-height: 53px;
   font-weight: 500;
 }
 
@@ -542,9 +534,10 @@ ul {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 25%;
   flex: 0 0 25%;
-  max-width: 25%;
+  max-width: 20%;
   width: 100%;
   text-align: center;
+  padding: 0 20px;
 }
 
 .feature-one__single:before {
@@ -2172,8 +2165,8 @@ ul {
 .testimonial-one__single {
   position: relative;
   /* display: block; */
-  background-color: #95192a5b;
-  color: black;
+  background-color: var(--wostin-base);
+  color: white;
   -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
   box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
   padding: 44px 50px 60px;
@@ -2209,6 +2202,7 @@ ul {
   font-size: 34px;
   font-weight: 700;
   line-height: 44px;
+  color: var(--wostin-white);
 }
 
 .testimonial-one__text {
@@ -2272,7 +2266,7 @@ ul {
 
 .testimonial-one__client-name {
   font-size: 18px;
-  color: var(--wostin-base);
+  color: var(--wostin-white);
   font-weight: 700;
   font-family: var(--wostin-font);
   line-height: 22px;
@@ -2667,7 +2661,7 @@ ul {
 .site-footer__middle {
   position: relative;
   display: block;
-  padding: 0 0 10px;
+padding: 20px 0px;
 }
 
 .footer-widget__about {
@@ -2741,7 +2735,7 @@ ul {
 }
 
 .footer-widget__title {
-  font-size: 24px;
+  font-size: 17px;
   color: var(--wostin-white);
   line-height: 34px;
   font-weight: 700;
@@ -2906,7 +2900,7 @@ ul {
 .site-footer__bottom {
   position: relative;
   display: block;
-  background-color: #353e32;
+  background-color: var(--wostin-primary);
 }
 
 .site-footer-bottom-shape {
@@ -2924,18 +2918,18 @@ ul {
   position: relative;
   display: block;
   text-align: center;
-  /* padding: 35px 0; */
+  padding: 8px 0;
 }
 
 .site-footer__bottom-text {
-  font-size: 11px;
-  color: #b0baae;
+  font-size: 13px;
+  color: var(--wostin-base);
   font-weight: 500;
   margin: 0;
 }
 
 .site-footer__bottom-text a {
-  color: #b0baae;
+  color: var(--wostin-base);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -10409,25 +10403,23 @@ li {
 
   font-weight: 500;
 }
-.main-nav ul li{
+.main-nav ul li {
   display: flex;
-justify-content: center;
-align-items: center;
-font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
 }
 
-.menu-link ul li p{
-padding-left: 20px;
-font-size: 20px;
-padding-top: 5px;
-padding-bottom: 5px;
-
+.menu-link ul li p {
+  padding-left: 20px;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.menu-link ul li p:hover{
- background-color: var(--wostin-primary);
+.menu-link ul li p:hover {
+  background-color: var(--wostin-primary);
 }
-
 
 .menu-link ul li:hover > a {
   transform-origin: left;
@@ -10658,7 +10650,7 @@ padding-bottom: 5px;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0; 
+  bottom: 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -10722,7 +10714,7 @@ video {
   height: 100px;
 }
 
-.prodButton{
+.prodButton {
   border: 0px;
   padding: 5px;
   /* background-color: var(--wostin-primary); */
@@ -10732,7 +10724,7 @@ video {
   -webkit-appearance: none;
   outline: none !important;
   background-color: var(--wostin-base);
-  color:  var(--wostin-primary);
+  color: var(--wostin-primary);
   font-size: 16px;
   font-weight: 700;
   -webkit-transition: all 0.5s linear;
@@ -10740,7 +10732,7 @@ video {
   overflow: hidden;
   z-index: 1;
 }
-.prodButton:hover{
+.prodButton:hover {
   color: var(--wostin-black);
   background-color: var(--wostin-primary);
 }
