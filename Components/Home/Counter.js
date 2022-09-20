@@ -14,14 +14,14 @@ const Counter = () => {
      <video  loop autoPlay muted>
      <source src="/nature.mp4"/>
      </video>
-      <div className=" videoContent p-2">
+      <div className=" videoContent p-3">
         <div className="row">
           <div className="col-xl-3 col-lg-3">
             <div className="counter-one__single ">
               <div className="counter-one__top">
                 <div className="counter-one__count">
                   <h2 className="odometer" data-count="260">
-                    00
+                  100
                   </h2>
                   <span className="counter-one__plus">+</span>
                 </div>
@@ -29,7 +29,7 @@ const Counter = () => {
                   <span className="icon-recycling-symbol"></span>
                 </div>
               </div>
-              <h3 className="counter-one__title">Industries Served</h3>
+              <h3 className="counter-one__title">Customer Served</h3>
               <p className="counter-one__text">
                 Lorem Ipsum is simply dummy <br /> ext of the new design.
               </p>
@@ -40,14 +40,14 @@ const Counter = () => {
               <div className="counter-one__top">
                 <div className="counter-one__count">
                   <h2 className="odometer" data-count="3600">
-                    00
+                    2000kg
                   </h2>
                 </div>
                 <div className="counter-one__icon">
                   <span className="icon-recycling-symbol"></span>
                 </div>
               </div>
-              <h3 className="counter-one__title">Wast Picked Up</h3>
+              <h3 className="counter-one__title">Agro Product</h3>
               <p className="counter-one__text">
                 Lorem Ipsum is simply dummy <br /> ext of the new design.
               </p>
@@ -58,9 +58,9 @@ const Counter = () => {
               <div className="counter-one__top">
                 <div className="counter-one__count">
                   <h2 className="odometer" data-count="890">
-                    00
+                    90
                   </h2>
-                  <span className="counter-one__plus">+</span>
+                  <span className="counter-one__plus">%</span>
                 </div>
                 <div className="counter-one__icon">
                   <span className="icon-recycling-symbol"></span>
@@ -77,7 +77,7 @@ const Counter = () => {
               <div className="counter-one__top">
                 <div className="counter-one__count">
                   <h2 className="odometer" data-count="890">
-                    00
+                    20
                   </h2>
                   <span className="counter-one__plus">+</span>
                 </div>
@@ -85,7 +85,7 @@ const Counter = () => {
                   <span className="icon-recycling-symbol"></span>
                 </div>
               </div>
-              <h3 className="counter-one__title">Happy Customers</h3>
+              <h3 className="counter-one__title">Acors Land</h3>
               <p className="counter-one__text">
                 Lorem Ipsum is simply dummy <br /> ext of the new design.
               </p>

@@ -3,12 +3,12 @@ import BrandsServed from "Components/Home/BrandsServed/BrandsServed";
 import CommonBanner from "Components/sustainability/CommonBanner";
 import CultureBanner from "public/Images/about/culture.png"
 
-const OurCulture = () => {
+const OurValues = () => {
     return ( <>
-    <CommonBanner headerBanner={CultureBanner} title={"OUR CULTURE"}/>
+    <CommonBanner headerBanner={CultureBanner} title={"OUR VALUES"}/>
     <CultureDetails/>
     <BrandsServed/>
     </> );
 }
  
-export default OurCulture;
+export default OurValues;

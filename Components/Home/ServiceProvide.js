@@ -26,27 +26,31 @@ const ServiceProvide = () => {
               <div className="services-one__top-left">
                 <div className="section-title text-left">
                   <span className="section-title__tagline">
-                    WHAT WE ARE OFFERING
+                    WE OFFERING
                   </span>
-                  <h2 className="section-title__title">
+                  {/* <h2 className="section-title__title">
                     The Services We’re Providing  to Our Customers
-                  </h2>
+                  </h2> */}
+                  <p className="services-one__top-text">
+                  RONDHAN is a technology company that enables small-scale
+                  farmers and Agri Businesses to maximize their profit.
+                </p>
                 </div>
               </div>
             </div>
             <div className="col-xl-5 col-lg-5">
               <div className="services-one__top-right">
-                <p className="services-one__top-text">
+                {/* <p className="services-one__top-text">
                   RONDHAN is a technology company that enables small-scale
                   farmers and Agri Businesses to maximize their profit.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
         </div>
         <div className="services-one__bottom">
           <div className="row">
-            <div className="col-md-6 col-xl-3 col-lg-3 col-sm-12 ">
+            <div className="col-md-6 col-xl-3 col-lg-3 col-sm-12 mt-2">
               <Card className="shadow serviceInnerContent pt-4">
                 <div className="serviceCardImage">
                   <Image src={farmer} alt="image"></Image>
@@ -63,7 +67,7 @@ const ServiceProvide = () => {
                 </Card.Body>
               </Card>
             </div>
-            <div className="col-md-6 col-xl-3 col-lg-3 col-sm-12">
+            <div className="col-md-6 col-xl-3 col-lg-3 col-sm-12 mt-2">
               {" "}
               <Card className="shadow serviceInnerContent pt-4 ">
                 <div className="serviceCardImage">
@@ -81,7 +85,7 @@ const ServiceProvide = () => {
                 </Card.Body>
               </Card>
             </div>
-            <div className="col-md-6 col-xl-3 col-lg-3 col-sm-12 ">
+            <div className="col-md-6 col-xl-3 col-lg-3 col-sm-12 mt-2">
               {" "}
               <Card className="shadow serviceInnerContent pt-4">
                 <div className="serviceCardImage">
@@ -99,7 +103,7 @@ const ServiceProvide = () => {
                 </Card.Body>
               </Card>
             </div>
-            <div className="col-md-6 col-xl-3 col-lg-3 col-sm-12 ">
+            <div className="col-md-6 col-xl-3 col-lg-3 col-sm-12 mt-2">
               {" "}
               <Card className="shadow serviceInnerContent pt-4 ">
                 <div className="serviceCardImage">

@@ -46,7 +46,7 @@ const NavBar = () => {
                     router.pathname == "/about/ourCulture" ? "activeu" : ""
                   }
                 >
-                  <Link href="/about/ourCulture">OUR CULTURE</Link>
+                  <Link href="/about/ourValues">OUR VALUES</Link>
                 </p>
                 {/* <NavDropdown.Divider /> */}
                 <p

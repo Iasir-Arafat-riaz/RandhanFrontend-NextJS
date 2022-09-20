@@ -4,18 +4,18 @@ import React from "react";
 const MembershipDetail = () => {
   return (
     <div>
-      <div className="mt-5">
+      <div className="mt-5 p-3">
         <h2 className="mb-5 text-center">
           <b>MEMBERSHIP AND ACCREDITATION</b>
         </h2>
         <div className="row text-center mb-5">
-          <div className="col-md-4">
+          <div className="col-md-4 col-sm-12">
             <Image src="/Images/about/member1.png" width={250} height={100} />
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 col-sm-12">
             <Image src="/Images/about/member2.png" width={250} height={100} />
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 col-sm-12">
             <Image src="/Images/about/member3.png" width={250} height={100} />
           </div>
         </div>

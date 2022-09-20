@@ -24,9 +24,7 @@ const Testimonial = () => {
                 {/* <span className="section-title__tagline">
                   Our Customers Feedbacks
                 </span> */}
-                <span className="section-title__tagline">
-                  FEEDBACK
-                </span>
+                <span className="section-title__tagline">FEEDBACK</span>
               </div>
               <p className="testimonial-one__text-1">
                 Proin a lacus arcu. Nullam id dui eu orci maximus. Cras at

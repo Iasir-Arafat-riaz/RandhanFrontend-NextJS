@@ -2,6 +2,7 @@ import React from "react";
 import { MdPrecisionManufacturing } from "react-icons/md";
 import { GiFarmer } from "react-icons/gi";
 import { GiCow } from "react-icons/gi";
+import { GiCrafting } from "react-icons/gi";
 
 import { GiFlatfish } from "react-icons/gi";
 import Link from "next/link";
@@ -55,7 +56,7 @@ const FeatureOne = () => {
             <li className="feature-one__single " data-wow-delay="400ms">
               <div className="feature-one__icon">
                 <span className="icon-garbage-truck">
-                  <GiFlatfish size={50}/>
+                  <GiCrafting size={50}/>
                 </span>
               </div>
               <h3 className="feature-one__title ">
