@@ -85,7 +85,7 @@ const Counter = () => {
                   <span className="icon-recycling-symbol"></span>
                 </div>
               </div>
-              <h3 className="counter-one__title">Acors Land</h3>
+              <h3 className="counter-one__title">Acre Land</h3>
               <p className="counter-one__text">
                 Lorem Ipsum is simply dummy <br /> ext of the new design.
               </p>
