@@ -2,6 +2,10 @@ import Image from "next/image";
 import React from "react";
 import bg from "../../public/Images/footer/footer.jpg";
 import footerLogo from "styles/images/logo-1.png";
+import { FaMapMarkerAlt } from 'react-icons/fa';
+import { AiOutlineMail } from 'react-icons/ai';
+import { FiPhoneCall } from 'react-icons/fi';
+
 
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -83,11 +87,11 @@ const Footer = () => {
                     <Image src={footerLogo} />
                   </a>
                 </Link>
-                  <h4 className="footer-widget__title">ABOUT RONDHAN</h4>
+                  {/* <h4 className="footer-widget__title">ABOUT RONDHAN</h4> */}
                   <div className="footer-widget__about-text-box">
                     <p className="footer-widget__about-text">
-                      Lorem ipsum dolor sited ame etur adi pisicing elit tempor
-                      labore.
+                      {/* Lorem ipsum dolor sited ame etur adi pisicing elit tempor
+                      labore. */}
                     </p>
                   </div>
                   {/* <form className="footer-widget__newsletter-form">
@@ -169,10 +173,16 @@ const Footer = () => {
               >
                 <div className="footer-widget__column footer-widget__contact clearfix">
                   <h3 className="footer-widget__title">CONTACT</h3>
-                  <p className="footer-widget__contact-text">
-                    House 54/A, Road 132, Gulshan, Dhaka
+                  <div className="footer-widget__contact-text">
+                  <p >
+                  <FaMapMarkerAlt size={15}/> #H 54/A, #R 132, Gulshan Circle-1, Dhaka-1212
                   </p>
-                  <div className="footer-widget__contact-info">
+                  <p><AiOutlineMail size={15}/> info@rondhan.com</p>
+                  <p><FiPhoneCall size={15}/> +8801711991713</p>
+                  </div>
+                  
+
+                  {/* <div className="footer-widget__contact-info">
                     <div className="footer-widget__contact-icon">
                       <span className="icon-contact"></span>
                     </div>
@@ -182,7 +192,7 @@ const Footer = () => {
                           href="mailto:needhelp@wostin.com"
                           className="footer-widget__contact-mail"
                         >
-                          rondhan@gmail.com
+                          info@rondhan.com
                         </a>
                         <a
                           href="tel:2463330088"
@@ -192,7 +202,7 @@ const Footer = () => {
                         </a>
                       </p>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -211,7 +221,7 @@ const Footer = () => {
               <div className="col-xl-12">
                 <div className="site-footer__bottom-inner">
                   <p className="site-footer__bottom-text">
-                    <b>© Copyright 2022 <a href="#">Rondhan.com</a> Developed by VMSL</b>
+                    <b>©  2022 <a href="#">Rondhan.com</a>. All Rights Reserved. Developed by VMSL</b>
                   </p>
                 </div>
               </div>

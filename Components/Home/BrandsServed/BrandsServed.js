@@ -23,7 +23,7 @@ const BrandsServed = () => {
   };
   return (
     <div className=" justify-content-center pt-5 pb-5 px-2 py-2" style={bgStyle}>
-      <h1 className="pb-5 text-center text-light">We Served</h1>
+      <h1 className="pb-5 text-center text-light">WE SERVED</h1>
       <Swiper
         // install Swiper modules
         modules={[Autoplay]}

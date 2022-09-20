@@ -8,7 +8,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 import Image from "next/image";
 
 //import images from existing folder
-import first from"styles/images/background/backg1.png"
+import first from"public/Images/backgroundImg/backgroundL1.png"
 import second from "styles/images/background/backg2.png"
 import third from"styles/images/background/backg3.png"
 import fourth from"styles/images/background/backg4.png"
@@ -31,12 +31,12 @@ function Slider(){
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper swiperCustom"
+        className="mySwiper "
         // slidesPerView={3}
         >
         {/* https://i.ibb.co/wy6wQr4/main-slider-1-1.jpg */}
         {/* <SwiperSlide ><div style={{backgroundImage:"url(https://i.ibb.co/wy6wQr4/main-slider-1-1.jpg)"}}></div></SwiperSlide> */}
-        <SwiperSlide > <Image src={first}/> </SwiperSlide>
+        <SwiperSlide className="swiperCustom"> <Image src={first} /> </SwiperSlide>
         <SwiperSlide><Image src={second}/></SwiperSlide>
         <SwiperSlide><Image src={third}/></SwiperSlide>
         <SwiperSlide><Image src={fourth}/></SwiperSlide>

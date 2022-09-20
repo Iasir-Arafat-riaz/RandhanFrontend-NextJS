@@ -33,7 +33,7 @@ const Industries = () => {
 
               <div className="industries-one__content">
                 <div className="industries-one__icon">
-                  <span className="icon-shop"><FaHotel/></span>
+                  <span className="icon-shop"><FaHotel size={50}/></span>
                 </div>
                 <h3 className="industries-one__title">
                   <a href="industry-details.html">CONSUMER</a>
@@ -60,7 +60,7 @@ const Industries = () => {
               </div>
               <div className="industries-one__content">
                 <div className="industries-one__icon">
-                  <span className="icon-grocery"><FaStethoscope/></span>
+                  <span className="icon-grocery"><FaStethoscope size={50}/></span>
                 </div>
                 <h3 className="industries-one__title">
                   <a href="industry-details.html">EMPOWERMENT</a>
@@ -87,7 +87,7 @@ const Industries = () => {
               </div>
               <div className="industries-one__content">
                 <div className="industries-one__icon">
-                  <span className="icon-grocery"><SiHomeassistantcommunitystore/></span>
+                  <span className="icon-grocery"><SiHomeassistantcommunitystore size={50}/></span>
                 </div>
                 <h3 className="industries-one__title">
                   <a href="industry-details.html">EMPLOYMENT</a>

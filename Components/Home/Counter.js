@@ -21,9 +21,9 @@ const Counter = () => {
               <div className="counter-one__top">
                 <div className="counter-one__count">
                   <h2 className="odometer" data-count="260">
-                  100
+                  100+
                   </h2>
-                  <span className="counter-one__plus">+</span>
+                  <span className="counter-one__plus"></span>
                 </div>
                 <div className="counter-one__icon">
                   <span className="icon-recycling-symbol"></span>
@@ -40,7 +40,7 @@ const Counter = () => {
               <div className="counter-one__top">
                 <div className="counter-one__count">
                   <h2 className="odometer" data-count="3600">
-                    2000kg
+                    2000KG
                   </h2>
                 </div>
                 <div className="counter-one__icon">
@@ -58,9 +58,9 @@ const Counter = () => {
               <div className="counter-one__top">
                 <div className="counter-one__count">
                   <h2 className="odometer" data-count="890">
-                    90
+                    90%
                   </h2>
-                  <span className="counter-one__plus">%</span>
+                  <span className="counter-one__plus"></span>
                 </div>
                 <div className="counter-one__icon">
                   <span className="icon-recycling-symbol"></span>
@@ -77,15 +77,15 @@ const Counter = () => {
               <div className="counter-one__top">
                 <div className="counter-one__count">
                   <h2 className="odometer" data-count="890">
-                    20
+                    20+
                   </h2>
-                  <span className="counter-one__plus">+</span>
+                  <span className="counter-one__plus"></span>
                 </div>
                 <div className="counter-one__icon">
                   <span className="icon-recycling-symbol"></span>
                 </div>
               </div>
-              <h3 className="counter-one__title">Acre Land</h3>
+              <h3 className="counter-one__title">Acres of Land</h3>
               <p className="counter-one__text">
                 Lorem Ipsum is simply dummy <br /> ext of the new design.
               </p>
