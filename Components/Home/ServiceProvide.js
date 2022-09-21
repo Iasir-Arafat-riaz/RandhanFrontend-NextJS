@@ -14,7 +14,7 @@ import { Card, Button } from "react-bootstrap";
 import { GiFarmer } from 'react-icons/gi';
 import { IoIosMan } from 'react-icons/io';
 import { BsBank2 } from 'react-icons/bs';
-import { FcBusinessman } from 'react-icons/fc';
+import { ImUser } from 'react-icons/im';
 
 import farmer from "../../public/Images/service/farmer.png";
 import buyer from "../../public/Images/service/buyer.png";
@@ -113,7 +113,7 @@ const ServiceProvide = () => {
               {" "}
               <Card className="shadow serviceInnerContent pt-4 ">
               <div className="serviceProvIcon">
-                  <span><FcBusinessman size={50}/></span>
+                  <span><ImUser size={50}/></span>
                 </div>
                 <Card.Body>
                   <h4 className="text-center serviceName">

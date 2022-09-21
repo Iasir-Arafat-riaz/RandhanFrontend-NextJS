@@ -13,7 +13,7 @@ const ContactHeader = () => {
       ></div>
       <div className="container">
         <div className="page-header__inner">
-          <h2>Contact Us</h2>
+          <h2>CONTACT US</h2>
           <ul className="thm-breadcrumb list-unstyled">
             <li>
               <Link href="/">

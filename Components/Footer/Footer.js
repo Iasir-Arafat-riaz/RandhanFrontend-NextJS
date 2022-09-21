@@ -2,10 +2,9 @@ import Image from "next/image";
 import React from "react";
 import bg from "../../public/Images/footer/footer.jpg";
 import footerLogo from "styles/images/logo-1.png";
-import { FaMapMarkerAlt } from 'react-icons/fa';
-import { AiOutlineMail } from 'react-icons/ai';
-import { FiPhoneCall } from 'react-icons/fi';
-
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
+import { FiPhoneCall } from "react-icons/fi";
 
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -83,10 +82,10 @@ const Footer = () => {
               >
                 <div className="footer-widget__column footer-widget__about">
                   <Link href="/">
-                  <a>
-                    <Image src={footerLogo} />
-                  </a>
-                </Link>
+                    <a>
+                      <Image src={footerLogo} />
+                    </a>
+                  </Link>
                   {/* <h4 className="footer-widget__title">ABOUT RONDHAN</h4> */}
                   <div className="footer-widget__about-text-box">
                     <p className="footer-widget__about-text">
@@ -130,7 +129,7 @@ const Footer = () => {
                     <li>
                       <Link href="/products">PRODUCTS</Link>
                     </li>
-                    
+
                     <li>
                       <Link href="/career">CAREER</Link>
                     </li>
@@ -146,7 +145,7 @@ const Footer = () => {
               </div>
 
               <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
+                className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp"
                 data-wow-delay="300ms"
               >
                 <div className="footer-widget__column footer-widget__services clearfix">
@@ -168,19 +167,23 @@ const Footer = () => {
                 </div>
               </div>
               <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
+                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
                 data-wow-delay="400ms"
               >
                 <div className="footer-widget__column footer-widget__contact clearfix">
                   <h3 className="footer-widget__title">CONTACT</h3>
                   <div className="footer-widget__contact-text">
-                  <p >
-                  <FaMapMarkerAlt size={15}/> #H 54/A, #R 132, Gulshan Circle-1, Dhaka-1212
-                  </p>
-                  <p><AiOutlineMail size={15}/> info@rondhan.com</p>
-                  <p><FiPhoneCall size={15}/> +8801711991713</p>
+                    <p>
+                      <FaMapMarkerAlt size={15} /> House - 54/A, Road - 132,
+                      Gulshan Circle-1, Dhaka-1212
+                    </p>
+                    <p>
+                      <AiOutlineMail size={15} /> info@rondhan.com
+                    </p>
+                    <p>
+                      <FiPhoneCall size={15} /> +8801738022033
+                    </p>
                   </div>
-                  
 
                   {/* <div className="footer-widget__contact-info">
                     <div className="footer-widget__contact-icon">
@@ -221,7 +224,10 @@ const Footer = () => {
               <div className="col-xl-12">
                 <div className="site-footer__bottom-inner">
                   <p className="site-footer__bottom-text">
-                    <b>©  2022 <a href="#">Rondhan.com</a>. All Rights Reserved. Developed by VMSL</b>
+                    <b>
+                      © 2022 <a href="#">Rondhan.com</a>. All Rights Reserved.
+                      Developed by VMSL
+                    </b>
                   </p>
                 </div>
               </div>

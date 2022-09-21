@@ -15,7 +15,7 @@ const ContactWithUs = () => {
           <div className="col-xl-6 col-lg-6">
             <div className="contact-one__left">
               <div className="section-title text-left">
-                <span className="section-title__tagline">Contact With Us</span>
+                <span className="section-title__tagline">CONTACT WITH US</span>
                 {/* <h2 className="section-title__title">
                   Have Questions? Feel Free to Write
                 </h2> */}

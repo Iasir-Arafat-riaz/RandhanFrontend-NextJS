@@ -104,6 +104,13 @@ const NavBar = () => {
                 >
                   <Link href="/projects/fisheries">FISHERIES</Link>
                 </p>
+                <p
+                  className={
+                    router.pathname == "/projects/handicraft" ? "activeu" : ""
+                  }
+                >
+                  <Link href="/projects/handicraft">HANDICRAFT</Link>
+                </p>
               </NavDropdown>
             </li>
             {/* <li
@@ -151,6 +158,17 @@ const NavBar = () => {
                 >
                   <Link href="/sustainability/environmental">
                     ENVIRONMENTAL
+                  </Link>
+                </p>
+                <p
+                  className={
+                    router.pathname == "/sustainability/csrActivities"
+                      ? "activeu"
+                      : ""
+                  }
+                >
+                  <Link href="/sustainability/csrActivities">
+                  CSR ACTIVITIES
                   </Link>
                 </p>
               </NavDropdown>

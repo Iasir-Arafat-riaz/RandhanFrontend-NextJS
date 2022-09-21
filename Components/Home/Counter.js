@@ -1,19 +1,11 @@
 import React from "react";
-import counterImg from "../../public/Images/backgroundImg/main-slider-1-1.jpg";
-
 
 const Counter = () => {
-  const bgStyle = require("../../styles/images/background/counter-one-bg.jpg");
-  console.log(counterImg.src);
-  const bgStyling = {
-    backgroundImage: `url(${counterImg.src})`,
-    backgroundAttachment: "fixed",
-  };
   return (
     <section className="counter-one">
-     <video  loop autoPlay muted>
-     <source src="/nature.mp4"/>
-     </video>
+      <video loop autoPlay muted>
+        <source src="/nature2.mp4" />
+      </video>
       <div className=" videoContent p-3">
         <div className="row">
           <div className="col-xl-3 col-lg-3">
@@ -21,7 +13,7 @@ const Counter = () => {
               <div className="counter-one__top">
                 <div className="counter-one__count">
                   <h2 className="odometer" data-count="260">
-                  100+
+                    100+
                   </h2>
                   <span className="counter-one__plus"></span>
                 </div>

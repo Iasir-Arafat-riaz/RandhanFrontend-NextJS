@@ -1,5 +1,5 @@
 import React from "react";
-import aboutMiddleBgImg from "../../public/Images/backgroundImg/manage-waste-bg.jpg";
+import aboutMiddleBgImg from "public/Images/backgroundImg/serviceProvBg.jpeg";
 
 const AboutMiddleBg = () => {
   return (

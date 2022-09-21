@@ -11,14 +11,14 @@ const AboutHEader = () => {
       ></div>
       <div className="container">
         <div className="page-header__inner">
-          <h2>Who We Are</h2>
+          <h2>WHO WE ARE</h2>
           <ul className="thm-breadcrumb list-unstyled">
             <li>
               <Link href="/">
                 <a>Home</a>
               </Link>
             </li>
-            <li>Who We Are</li>
+            <li>WHO WE ARE</li>
           </ul>
         </div>
       </div>

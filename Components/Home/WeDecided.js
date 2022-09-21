@@ -11,8 +11,8 @@ const WeDecided = () => {
                     <div className="col-xl-6">
                         <div className="we-dedicated__left">
                             <div className="section-title text-left">
-                                <span className="section-title__tagline">Our Skills & Expertise</span>
-                                <h2 className="section-title__title">We are Dedicated to Serve you all Our Time</h2>
+                                <span className="section-title__tagline">OUR SKILLS & EXPERTISE</span>
+                                {/* <h2 className="section-title__title">We are Dedicated to Serve you all Our Time</h2> */}
                             </div>
                             <p className="we-dedicated__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                                 do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.</p>

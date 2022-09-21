@@ -209,7 +209,7 @@ ul {
   color: var(--wostin-primary);
   font-size: 16px;
   font-weight: 700;
-  padding: 8px 35px 8px;
+  padding: 5px 15px 5px;
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
   overflow: hidden;
@@ -945,7 +945,7 @@ ul {
   display: block;
   overflow: hidden;
   z-index: 1;
-  height: 200px;
+  height: 150px;
 }
 
 .industries-one__img:before {
@@ -989,7 +989,7 @@ ul {
   border: 1px solid var(--wostin-bdr-color);
   border-top: 0;
   text-align: center;
-  padding: 65px 30px 25px;
+  padding: 60px 10px 25px;
   background-color: white;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -1786,11 +1786,11 @@ ul {
 
 .have-waste__icon {
   position: relative;
-  height: 53px;
-  width: 53px;
+  height: 50px;
+  width: 50px;
   background-color: var(--wostin-black);
   border-radius: 50%;
-  font-size: 35px;
+  font-size: 20px;
   color: var(--wostin-primary);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1886,7 +1886,7 @@ ul {
 .project-one {
   position: relative;
   display: block;
-  padding: 120px 0 90px;
+  padding: 120px 0 40px;
   margin-top: -35px;
   z-index: 1;
 }
@@ -1897,8 +1897,8 @@ ul {
   left: 0;
   right: 0;
   background-color: var(--wostin-black);
-  height: 692px;
-  z-index: 1;
+  height: 592px;
+  z-index: -1000;
 }
 
 .project-one-bg {
@@ -1906,7 +1906,7 @@ ul {
   top: 0;
   left: 0;
   right: 0;
-  height: 692px;
+  height: 592px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -1932,7 +1932,7 @@ ul {
   z-index: 5;
 }
 
-.project-one .section-title__tagline {
+.project-one  {
   color: #a5b9ad;
 }
 
@@ -1943,7 +1943,7 @@ ul {
 .project-one__single {
   position: relative;
   display: block;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .project-one__img {
@@ -1988,7 +1988,9 @@ ul {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
-
+.project-one__sub-title{
+  color: var(--wostin-black);
+}
 .project-one__content {
   position: relative;
   display: block;
@@ -2012,16 +2014,16 @@ ul {
 }
 
 .project-one__title {
-  font-size: 34px;
+  font-size: 14px;
   font-weight: 700;
-  line-height: 34px;
+  line-height: 24px;
 }
 
 .project-one__title a {
   color: var(--wostin-black);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
-  font-size: 20px;
+  font-size: 11px;
 }
 
 .project-one__single:hover .project-one__title a {
@@ -2037,7 +2039,7 @@ ul {
 .project-one__arrow a {
   height: 45px;
   width: 45px;
-  background-color: var(--wostin-black);
+  background-color: var(--wostin-base);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2057,6 +2059,11 @@ ul {
 .project-one__single:hover .project-one__arrow a {
   background-color: var(--wostin-primary);
   color: var(--wostin-black);
+}
+
+.projectMainDiv{
+  display: flex;
+  justify-content: center;
 }
 
 /*--------------------------------------------------------------
@@ -3790,7 +3797,7 @@ ul {
   z-index: 2;
 }
 
-.project-two .section-title__tagline {
+.project-two {
   color: #a5b9ad;
 }
 
@@ -6108,7 +6115,7 @@ ul {
   z-index: -1;
 }
 
-.news-three__left .section-title__tagline {
+.news-three__left  {
   color: #c8e8c3;
 }
 
@@ -6268,7 +6275,7 @@ ul {
 }
 
 .page-header__inner h2 {
-  font-size: 60px;
+  font-size: 30px;
   color: var(--wostin-white);
   line-height: 60px;
   margin-bottom: 13px;
@@ -8174,25 +8181,14 @@ ul {
 /*--------------------------------------------------------------
 # Projects Page
 --------------------------------------------------------------*/
-.projects-page {
-  position: relative;
-  display: block;
-  padding: 120px 0 90px;
-}
 
-.projects-page--carousel {
-  padding-bottom: 120px;
-}
 
-.projects-page .project-one__content {
-  padding: 19px 30px 27px;
+ .project-one__content {
+  /* padding: 19px 30px 27px;
   margin-left: 30px;
-  margin-right: 30px;
+  margin-right: 30px; */
 }
 
-.projects-page .project-one__title {
-  font-size: 34px;
-}
 
 /*--------------------------------------------------------------
 # Project Details
@@ -8565,9 +8561,9 @@ ul {
 }
 
 .similar-projects .project-one__content {
-  padding: 19px 30px 27px;
-  margin-left: 30px;
-  margin-right: 30px;
+  padding: 19px 0px 27px;
+  /* margin-left: 30px;
+  margin-right: 30px; */
 }
 
 .similar-projects .project-one__title {

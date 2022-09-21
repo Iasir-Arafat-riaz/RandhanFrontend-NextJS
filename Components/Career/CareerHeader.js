@@ -5,18 +5,16 @@ import Head from "next/head";
 const CareerHeader = () => {
   return (
     <section className="career-header">
-      <Head>
-        <title>career</title>
-      </Head>
+     
       <div
         className="career-header-bg"
         style={{ backgroundImage: `url(${careerHeaderImg.src})` }}
       ></div>
       <div className="container">
         <div className="page-header__inner careerHeaderDiv">
-          <h1 className="text-light pt-5 text-center">
+          <h2 className="text-light pt-5 text-center">
             JOIN WITH RONDHAN FAMILY
-          </h1>
+          </h2>
           <h5 className="text-light pt-3  ">
             RONDHAN works toward the digitalization of the future. As
             entrepreneurs, we offer services with innovation and deliver
