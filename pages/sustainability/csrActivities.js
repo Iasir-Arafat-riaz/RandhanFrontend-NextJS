@@ -1,6 +1,13 @@
+import BrandsServed from "Components/Home/BrandsServed/BrandsServed";
+import CommonBanner from "Components/sustainability/CommonBanner";
+import CsrActivitiesBody from "Components/sustainability/CsrActivitiesBody";
+import csrActivitiesBackg from "public/Images/sustainability/csrActivities.png"
 const CsrActivities = () => {
+
     return ( <>
-    <h1>csrActivities Page</h1>
+    <CommonBanner headerBanner={csrActivitiesBackg} title={"CSR ACTIVITIES"}/>
+    <CsrActivitiesBody/>
+    <BrandsServed/>
     </> );
 }
  

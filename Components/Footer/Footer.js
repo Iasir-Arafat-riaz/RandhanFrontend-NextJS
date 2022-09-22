@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bg from "../../public/Images/footer/footer.jpg";
+import bg from "../../public/Images/footer/footerBackg.png";
 import footerLogo from "styles/images/logo-1.png";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";

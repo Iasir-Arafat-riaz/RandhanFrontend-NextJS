@@ -1,9 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
-import leadingImg from "../../styles/images/resource/exp.png";
-import leadingImgShape from "../../styles/images/resource/leading-waste-img-shape-1.png";
-import leadingImgShapeDots from "../../styles/images/resource/leading-waste-dots.png";
+import leadingImg from "public/Images/resources/exp.jpg";
+import leadingImgShape from "public/Images/resources/expShape.png";
 
 import { TiTick } from "react-icons/ti";
 
@@ -28,10 +27,17 @@ const LeadingManagement = () => {
                   </p>
                 </div>
                 <div className="leading-waste__img-shape-1 float-bob-x">
-                  <Image src={leadingImgShape} alt="" />
+                  <Image src={leadingImgShape} alt="image" />
                 </div>
                 <div className="leading-waste__big-text">
-                  <p>Wostin</p>
+                  <p>R</p>
+                  <p>o</p>
+                  <p>n</p>
+                  <p>d</p>
+                  <p>h</p>
+                  <p>a</p>
+                  <p>n</p>
+
                 </div>
               </div>
             </div>

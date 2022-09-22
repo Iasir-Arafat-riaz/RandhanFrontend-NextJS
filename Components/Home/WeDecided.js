@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import weDecImg1 from "styles/images/resource/experties.png";
+import weDecImg1 from "public/Images/resources/experties.png";
 import {BiRightArrow} from "react-icons/bi"
 
 const WeDecided = () => {
@@ -18,7 +18,7 @@ const WeDecided = () => {
                                 do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.</p>
                             <div className="we-dedicated__progress">
                                 <div className="we-dedicated__progress-single">
-                                    <h4 className="we-dedicated__progress-title">Waste Management</h4>
+                                    <h4 className="we-dedicated__progress-title">Food Management</h4>
                                     <div className="bar">
                                         <div className="bar-inner count-bar" data-percent="90%">
                                             <div className="count-text">90%</div>
@@ -42,12 +42,12 @@ const WeDecided = () => {
                                 data-wow-duration="2500ms">
                                 <Image src={weDecImg1} alt="dec1"/>
                                 <div className="we-dedicated__video-link">
-                                    <a target="_blank" href="https://www.youtube.com/watch?v=Get7rqXYrbQ" rel="noopener noreferrer" className="video-popup">
+                                    {/* <a target="_blank" href="https://www.youtube.com/watch?v=Get7rqXYrbQ" rel="noopener noreferrer" className="video-popup">
                                         <div className="we-dedicated__video-icon">
                                             <span className="fa fa-play"><BiRightArrow/></span>
                                             <i className="ripple"></i>
                                         </div>
-                                    </a>
+                                    </a> */}
                                 </div>
                             </div>
                         </div>

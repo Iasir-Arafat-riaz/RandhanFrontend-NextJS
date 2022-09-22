@@ -7,7 +7,7 @@ const Environmental = () => {
     <>
       <CommonBanner
         headerBanner={environmentalBanner}
-        title={"Environmental"}
+        title={"ENVIRONMENTAL"}
       />
       <EnvironmentalBody/>
       <BrandsServed />

@@ -4,7 +4,7 @@ import SocialBody from "Components/sustainability/SocialBody";
 import socialBAnner from "public/Images/sustainability/social-banner.png"
 const Social = () => {
     return (<>
-   <CommonBanner headerBanner={socialBAnner} title={"Social"}/>
+   <CommonBanner headerBanner={socialBAnner} title={"SOCIAL"}/>
    <SocialBody/>
     <BrandsServed />
     </>  );

@@ -5,7 +5,7 @@ import economicalBanner from "public/Images/sustainability/economicalBanner.png"
 
 const Economical = () => {
     return ( <>
-    <CommonBanner headerBanner={economicalBanner} title={"Economical"}/>
+    <CommonBanner headerBanner={economicalBanner} title={"ECONOMICAL"}/>
     <EconomicalBody/>
     <BrandsServed />
     </> );

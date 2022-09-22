@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import projBg from "../../styles/images/background/industries-one-bg.jpg";
+import projBg from "public/Images/backgroundImg/natureBg2.jpg";
 import projectImg1 from "public/Images/projects/manufecturingProj.png";
 import projectImg2 from "public/Images/projects/farmingProject.png";
 import projectImg3 from "public/Images/projects/cattleProject.png";
