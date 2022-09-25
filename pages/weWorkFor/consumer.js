@@ -1,9 +1,13 @@
 import BrandsServed from "Components/Home/BrandsServed/BrandsServed";
+import CommonBanner from "Components/sustainability/CommonBanner";
+import ConsumerDetails from "Components/WorkFor/ConsumerDetails";
+import consumerBanner from "public/Images/weWorkFor/consumerBanner.png"
 
 const Consumer = () => {
   return (
     <>
-      <h1>Consumer component</h1>
+    <CommonBanner headerBanner={consumerBanner} title={"CONSUMER"} />
+      <ConsumerDetails/>
       <BrandsServed />
     </>
   );

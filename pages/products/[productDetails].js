@@ -1,5 +1,5 @@
 import CommonBanner from "Components/sustainability/CommonBanner";
-import ProductDetailBanner from "public/Images/products/productDetails.jpg";
+import ProductDetailBanner from "public/Images/products/prodDetails.png";
 const ProductDetails = () => {
   return (
     <>

@@ -1,7 +1,7 @@
 import CultureDetails from "Components/About/CultureDetails";
 import BrandsServed from "Components/Home/BrandsServed/BrandsServed";
 import CommonBanner from "Components/sustainability/CommonBanner";
-import CultureBanner from "public/Images/about/culture.png"
+import CultureBanner from "public/Images/about/ourValues.png"
 
 const OurValues = () => {
     return ( <>

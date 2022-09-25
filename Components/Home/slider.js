@@ -12,8 +12,8 @@ import first from "public/Images/backgroundImg/sliderBackg0.png";
 import second from "public/Images/backgroundImg/sliderBackg2.png";
 import third from "public/Images/backgroundImg/sliderBackg3.png";
 import fourth from "public/Images/backgroundImg/sliderBackg4.png";
-import fifth from "styles/images/background/backg5.png";
-import sixth from "styles/images/background/backg6.png";
+import fifth from "public/Images/backgroundImg/sliderBackg5.png";
+import sixth from "public/Images/backgroundImg/sliderBackg6.png";
 
 function Slider() {
   console.log(first);

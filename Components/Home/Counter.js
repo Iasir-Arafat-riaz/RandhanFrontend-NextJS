@@ -23,7 +23,7 @@ const Counter = () => {
               </div>
               <h3 className="counter-one__title">Customer Served</h3>
               <p className="counter-one__text">
-                Lorem Ipsum is simply dummy <br /> ext of the new design.
+              Lorem Ipsum is a simply dummy lorem dummy texts ext of the new design.
               </p>
             </div>
           </div>
@@ -41,7 +41,7 @@ const Counter = () => {
               </div>
               <h3 className="counter-one__title">Agro Product</h3>
               <p className="counter-one__text">
-                Lorem Ipsum is simply dummy <br /> ext of the new design.
+              Lorem Ipsum is a simply dummy lorem dummy texts ext of the new design.
               </p>
             </div>
           </div>
@@ -60,7 +60,7 @@ const Counter = () => {
               </div>
               <h3 className="counter-one__title">Happy Customers</h3>
               <p className="counter-one__text">
-                Lorem Ipsum is simply dummy <br /> ext of the new design.
+              Lorem Ipsum is a simply dummy lorem dummy texts ext of the new design.
               </p>
             </div>
           </div>
@@ -79,7 +79,7 @@ const Counter = () => {
               </div>
               <h3 className="counter-one__title">Acres of Land</h3>
               <p className="counter-one__text">
-                Lorem Ipsum is simply dummy <br /> ext of the new design.
+                Lorem Ipsum is a simply dummy lorem dummy texts ext of the new design.
               </p>
             </div>
           </div>

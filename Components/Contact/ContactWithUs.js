@@ -60,6 +60,11 @@ const ContactWithUs = () => {
                 </li>
               </ul>
             </div>
+            <div style={{marginTop:"100px"}}>
+              <button className="thm-btn contact-one__btn ">
+                Be A Partner
+              </button>
+            </div>
           </div>
           <div className="col-xl-6 col-lg-6">
             <div className="contact-one__right">
@@ -70,8 +75,13 @@ const ContactWithUs = () => {
               >
                 <div className="row">
                   <div className="col-xl-6 col-lg-6 col-md-6">
-                    <div  className="contact-one__form-input-box">
-                      <input required type="text" placeholder="Your Name" name="name" />
+                    <div className="contact-one__form-input-box">
+                      <input
+                        required
+                        type="text"
+                        placeholder="Your Name"
+                        name="name"
+                      />
                     </div>
                   </div>
                   <div className="col-xl-6 col-lg-6 col-md-6">
@@ -96,7 +106,12 @@ const ContactWithUs = () => {
                   </div>
                   <div className="col-xl-6 col-lg-6 col-md-6">
                     <div className="contact-one__form-input-box">
-                      <input type="text" placeholder="Subject" name="subject" required />
+                      <input
+                        type="text"
+                        placeholder="Subject"
+                        name="subject"
+                        required
+                      />
                     </div>
                   </div>
                 </div>

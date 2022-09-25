@@ -20,8 +20,13 @@ import farmer from "../../public/Images/service/farmer.png";
 import buyer from "../../public/Images/service/buyer.png";
 import funder from "../../public/Images/service/funders.png";
 import retailer from "../../public/Images/service/retailer.png";
+import { useRouter } from "next/router";
 
 const ServiceProvide = () => {
+  const router = useRouter();
+  const handleClick=(provider)=>{
+    router.push(`/provider/${provider}`)
+  }
   return (
     <section className="services-one">
       <div >
@@ -57,7 +62,7 @@ const ServiceProvide = () => {
           }}>
           <div className="row">
             <div className="col-md-6 col-xl-3 col-lg-3 col-sm-12 mt-2 ">
-              <Card className="shadow serviceInnerContent pt-4">
+              <Card className="shadow serviceInnerContent pt-4" onClick={()=>handleClick("farmer")}>
                 <div className="serviceProvIcon">
                   <span><GiFarmer size={50}/></span>{/* <Image src={farmer} alt="image"></Image> */}
                 </div>
@@ -75,7 +80,7 @@ const ServiceProvide = () => {
             </div>
             <div className="col-md-6 col-xl-3 col-lg-3 col-sm-12 mt-2">
               {" "}
-              <Card className="shadow serviceInnerContent pt-4 ">
+              <Card className="shadow serviceInnerContent pt-4 " onClick={()=>handleClick("buyer")}>
               <div className="serviceProvIcon">
                   <span><IoIosMan size={50}/></span>
                 </div>
@@ -93,7 +98,7 @@ const ServiceProvide = () => {
             </div>
             <div className="col-md-6 col-xl-3 col-lg-3 col-sm-12 mt-2">
               {" "}
-              <Card className="shadow serviceInnerContent pt-4">
+              <Card className="shadow serviceInnerContent pt-4" onClick={()=>handleClick("funder")}>
               <div className="serviceProvIcon">
                   <span><BsBank2 size={50}/></span>
                 </div>
@@ -111,7 +116,7 @@ const ServiceProvide = () => {
             </div>
             <div className="col-md-6 col-xl-3 col-lg-3 col-sm-12 mt-2">
               {" "}
-              <Card className="shadow serviceInnerContent pt-4 ">
+              <Card className="shadow serviceInnerContent pt-4 " onClick={()=>handleClick("retailer")}>
               <div className="serviceProvIcon">
                   <span><ImUser size={50}/></span>
                 </div>

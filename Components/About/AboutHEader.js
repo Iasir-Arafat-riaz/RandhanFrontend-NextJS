@@ -1,5 +1,5 @@
 import React from "react";
-import aboutHeaderImg from "public/Images/backgroundImg/backgBanner.png";
+import aboutHeaderImg from "public/Images/backgroundImg/whoWeAreBanner.png";
 import Link from "next/link";
 
 const AboutHEader = () => {
