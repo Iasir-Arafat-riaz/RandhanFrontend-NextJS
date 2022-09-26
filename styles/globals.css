@@ -4176,6 +4176,14 @@ ul {
   border: 0;
 }
 
+.retailerDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
 /*--------------------------------------------------------------
 # Google Map
 --------------------------------------------------------------*/
@@ -10759,9 +10767,9 @@ video {
   font-size: 14px;
 }
 
-.prodButton {
+.prodButton, .partnerBtn{
   border: 0px;
-  padding: 5px;
+  padding: 5px 15px;
   /* background-color: var(--wostin-primary); */
   position: relative;
   display: inline-block;
@@ -10777,7 +10785,7 @@ video {
   overflow: hidden;
   z-index: 1;
 }
-.prodButton:hover {
+.prodButton:hover,.partnerBtn:hover {
   color: var(--wostin-black);
   background-color: var(--wostin-primary);
 }
