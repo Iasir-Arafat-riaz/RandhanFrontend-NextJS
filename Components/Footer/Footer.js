@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import bg from "../../public/Images/footer/footerBackg.png";
 import footerLogo from "styles/images/logo-1.png";
 import { FaMapMarkerAlt } from "react-icons/fa";
@@ -15,9 +15,14 @@ import {
   faBicycle,
   faChampagneGlasses,
 } from "@fortawesome/free-solid-svg-icons";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
 
 const Footer = () => {
-  console.log(bg);
+  // else{
+  //   setDisabled(false)
+  // }
+
   return (
     <>
       <footer className="site-footer">
@@ -184,6 +189,11 @@ const Footer = () => {
                       <FiPhoneCall size={15} /> +8801738022033
                     </p>
                   </div>
+                  <Link href="/contact/be-A-Partner">
+                    <a>
+                      <button className="footerPartnerBtn">Be A Partner</button>
+                    </a>
+                  </Link>
 
                   {/* <div className="footer-widget__contact-info">
                     <div className="footer-widget__contact-icon">

@@ -2964,6 +2964,22 @@ ul {
 .site-footer__bottom-text a:hover {
   color: var(--wostin-white);
 }
+.footerPartnerBtn{
+  background-color: transparent;
+  margin-top: 10px;
+  color: var(--wostin-primary);
+  border: 1px solid var(--wostin-primary);
+  font-size: 14px;
+  padding: 2px 8px;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  overflow: hidden;
+  z-index: 1;
+}
+.footerPartnerBtn:hover{
+  color: var(--wostin-white);
+  background-color: var(--wostin-base);
+}
 
 /*--------------------------------------------------------------
 # Introduction
@@ -4043,12 +4059,12 @@ ul {
 }
 
 .contact-one__info li + li {
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 .contact-one__info li .icon {
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   background-color: var(--wostin-base);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4087,7 +4103,7 @@ ul {
 }
 
 .contact-one__info li .text a {
-  font-size: 18px;
+  font-size: 15px;
   color: var(--wostin-black);
   font-weight: 500;
   -webkit-transition: all 500ms ease;
@@ -4099,7 +4115,7 @@ ul {
 }
 
 .contact-one__info li .text span {
-  font-size: 18px;
+  font-size: 15px;
   color: var(--wostin-black);
   font-weight: 500;
 }
