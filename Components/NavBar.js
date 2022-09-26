@@ -43,7 +43,7 @@ const NavBar = () => {
                 {/* <NavDropdown.Divider /> */}
                 <p
                   className={
-                    router.pathname == "/about/ourCulture" ? "activeu" : ""
+                    router.pathname == "/about/ourValues" ? "activeu" : ""
                   }
                 >
                   <Link href="/about/ourValues">OUR VALUES</Link>

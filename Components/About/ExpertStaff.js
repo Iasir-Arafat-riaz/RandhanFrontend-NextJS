@@ -16,7 +16,7 @@ const ExpertStaff = () => {
       <div className="container">
         <div className="section-title text-center">
           <span className="section-title__tagline">TEAM BEHIND SUCCESS</span>
-          <h2 className="section-title__title">Expert Staff & Members</h2>
+          {/* <h2 className="section-title__title">Expert Staff & Members</h2> */}
         </div>
         <div className="row">
           <div

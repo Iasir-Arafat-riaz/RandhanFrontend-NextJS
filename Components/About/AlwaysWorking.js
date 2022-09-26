@@ -12,11 +12,11 @@ const AlwaysWorking = () => {
             <div className="always-working__left">
               <div className="section-title text-left">
                 <span className="section-title__tagline">
-                  About Wostin Company
+                  About Rondhan
                 </span>
-                <h2 className="section-title__title">
+                {/* <h2 className="section-title__title">
                   Always Working for a Clean Tomorrow
-                </h2>
+                </h2> */}
               </div>
               <p className="always-working__text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
