@@ -4167,6 +4167,22 @@ ul {
   font-weight: 500;
   padding: 20px 40px 30px;
 }
+.contactBeAPartner{
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+}
+.contactBeAPartner input[type="text"],.contactBeAPartner input[type="email"]{
+  height: 63px;
+  width: 50%;
+  border: none;
+  outline: none;
+  background-color: var(--wostin-extra);
+  font-size: 14px;
+  color: var(--wostin-gray);
+  font-weight: 500;
+  padding: 0 30px 0;
+}
 
 .contact-one__form-input-box.text-message-box {
   height: 184px;
@@ -4483,8 +4499,9 @@ ul {
 }
 
 .cta-one__btn {
-  background-color: var(--wostin-black);
+  
   color: var(--wostin-white);
+  border: 1px solid var(--wostin-base);
 }
 
 /*--------------------------------------------------------------
@@ -10720,8 +10737,6 @@ li {
 .serviceInnerContent:hover .serviceProvIcon{
   background-color: var(--wostin-primary);
   color: var(--wostin-base);
-  
-  
   
   transition: all 0.8s cubic-bezier(0.62, 0.21, 0.45, 1.52);
   z-index: 100;

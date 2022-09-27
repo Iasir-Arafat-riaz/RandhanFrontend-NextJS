@@ -1,5 +1,6 @@
 import React from "react";
 import aboutMiddleBgImg from "public/Images/backgroundImg/serviceProvBg.jpeg";
+import Link from "next/link";
 
 const AboutMiddleBg = () => {
   return (
@@ -21,18 +22,16 @@ const AboutMiddleBg = () => {
           <div className="col-xl-12">
             <div className="manage-waste__inner">
               <h3 className="manage-waste__title">
-               Manage Agri Businesses <br /> to maximize their profit.
+                Manage Agri Businesses <br /> to maximize their profit.
               </h3>
               <div className="manage-waste__btn-box">
-                <a
-                  href="request-pickup.html"
-                  className="thm-btn manage-waste__btn-1"
-                >
-                  Request a Pickup
-                </a>
-                <a href="contact.html" className="thm-btn manage-waste__btn-2">
-                  Contact With us
-                </a>
+                <Link href="/contact/be-A-Partner">
+                  <a className="thm-btn manage-waste__btn-1">Be A Partner</a>
+                </Link>
+
+                <Link href="/contact">
+                  <a className="thm-btn manage-waste__btn-2">Contact With us</a>
+                </Link>
               </div>
             </div>
           </div>

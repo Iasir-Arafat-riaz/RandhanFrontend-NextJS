@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import retailerImage from "public/Images/resources/retailer.jpg";
-import dealerImage from "public/Images/resources/dealer.png";
+import retailerImage from "public/Images/contact/retailer.jpg";
+import dealerImage from "public/Images/contact/dealer.png";
 import Link from "next/link";
 
 const PartnersDetails = () => {
@@ -12,7 +12,7 @@ const PartnersDetails = () => {
           <div className="retailerDiv">
             <Image width={400} height={250} src={retailerImage} />
             <div className="mt-3">
-              <Link href="/contact/retailer"><a><button className="partnerBtn">Retailer</button></a></Link>
+              <Link href="/contact/retailerPartner"><a><button className="partnerBtn">Retailer</button></a></Link>
             </div>
           </div>
         </div>
@@ -20,7 +20,7 @@ const PartnersDetails = () => {
           <div className="retailerDiv">
             <Image width={400} height={250} src={dealerImage} />
             <div className="mt-3">
-            <Link href="/contact/dealer"><a><button className="partnerBtn">Dealer</button></a></Link>
+            <Link href="/contact/dealerPartner"><a><button className="partnerBtn">Dealer</button></a></Link>
             </div>
           </div>
         </div>

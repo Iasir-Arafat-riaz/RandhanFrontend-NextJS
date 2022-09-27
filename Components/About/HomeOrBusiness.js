@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const HomeOrBusiness = () => {
@@ -9,7 +10,8 @@ const HomeOrBusiness = () => {
                         <div className="cta-one__inner">
                             <h2 className="cta-one__title">Do You Interested Connect With Us?</h2>
                             <div className="cta-one__btn-box">
-                                <a href="request-pickup.html" className="thm-btn cta-one__btn">Request for Join</a>
+                                <Link href="/contact"><a  className="thm-btn cta-one__btn">Contact With Us</a></Link>
+                                
                             </div>
                         </div>
                     </div>

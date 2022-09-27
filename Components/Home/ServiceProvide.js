@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import serviceProvBg from "/public/Images/backgroundImg/serviceProvBg.jpeg"
+import serviceProvBg from "/public/Images/backgroundImg/serviceProvBg.jpeg";
 import serviceImgCom from "../../styles/images/services/service-details-img-4.jpg";
 import serviceImg1 from "../../styles/images/services/services-1-1.jpg";
 import serviceImg2 from "../../styles/images/services/services-1-2.jpg";
@@ -11,25 +11,26 @@ import { FaDumpster } from "react-icons/fa";
 import { FaToilet } from "react-icons/fa";
 import { GiWaterRecycling } from "react-icons/gi";
 import { Card, Button } from "react-bootstrap";
-import { GiFarmer } from 'react-icons/gi';
-import { IoIosMan } from 'react-icons/io';
-import { BsBank2 } from 'react-icons/bs';
-import { ImUser } from 'react-icons/im';
+import { GiFarmer } from "react-icons/gi";
+import { IoIosMan } from "react-icons/io";
+import { BsBank2 } from "react-icons/bs";
+import { ImUser } from "react-icons/im";
 
 import farmer from "../../public/Images/service/farmer.png";
 import buyer from "../../public/Images/service/buyer.png";
 import funder from "../../public/Images/service/funders.png";
 import retailer from "../../public/Images/service/retailer.png";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const ServiceProvide = () => {
-  const router = useRouter();
-  const handleClick=(provider)=>{
-    router.push(`/provider/${provider}`)
-  }
+  // const router = useRouter();
+  // const handleClick=(provider)=>{
+  //   router.push(`/provider/${provider}`)
+  // }
   return (
     <section className="services-one">
-      <div >
+      <div>
         <div className="services-one__top">
           <div className="row">
             <div className="col-xl-7 col-lg-7">
@@ -56,33 +57,48 @@ const ServiceProvide = () => {
             </div>
           </div>
         </div>
-        <div className="services-one__bottom" style={{
+        <div
+          className="services-one__bottom"
+          style={{
             backgroundImage: `url(${serviceProvBg.src})`,
             backgroundAttachment: "fixed",
-          }}>
+          }}
+        >
           <div className="row">
             <div className="col-md-6 col-xl-3 col-lg-3 col-sm-12 mt-2 ">
-              <Card className="shadow serviceInnerContent pt-4" onClick={()=>handleClick("farmer")}>
-                <div className="serviceProvIcon">
-                  <span><GiFarmer size={50}/></span>{/* <Image src={farmer} alt="image"></Image> */}
-                </div>
-                <Card.Body>
-                  <h4 className="text-center serviceName">
-                    <b>FARMER</b>
-                  </h4>
-                  <Card.Text className="text-center serviceProvDetail">
-                    We bundle everything a farmer needs to maximize profit:
-                    financing, farm inputs and advisory, insurance, and access
-                    to market. so chill always.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
+              <Link href="/provider/farmer">
+                <a>
+                  <Card className="shadow serviceInnerContent pt-4">
+                    <div className="serviceProvIcon">
+                      <span>
+                        <GiFarmer size={50} />
+                      </span>
+                      {/* <Image src={farmer} alt="image"></Image> */}
+                    </div>
+                    <Card.Body>
+                      <h4 className="text-center serviceName">
+                        <b>FARMER</b>
+                      </h4>
+                      <Card.Text className="text-center serviceProvDetail">
+                        We bundle everything a farmer needs to maximize profit:
+                        financing, farm inputs and advisory, insurance, and
+                        access to market. so chill always.
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </a>
+              </Link>
             </div>
             <div className="col-md-6 col-xl-3 col-lg-3 col-sm-12 mt-2">
               {" "}
-              <Card className="shadow serviceInnerContent pt-4 " onClick={()=>handleClick("buyer")}>
-              <div className="serviceProvIcon">
-                  <span><IoIosMan size={50}/></span>
+              <Link href="/provider/buyer"><a><Card
+                className="shadow serviceInnerContent pt-4 "
+                
+              >
+                <div className="serviceProvIcon">
+                  <span>
+                    <IoIosMan size={50} />
+                  </span>
                 </div>
                 <Card.Body>
                   <h4 className="text-center serviceName">
@@ -94,13 +110,18 @@ const ServiceProvide = () => {
                     retailers
                   </Card.Text>
                 </Card.Body>
-              </Card>
+              </Card></a></Link>
             </div>
             <div className="col-md-6 col-xl-3 col-lg-3 col-sm-12 mt-2">
               {" "}
-              <Card className="shadow serviceInnerContent pt-4" onClick={()=>handleClick("funder")}>
-              <div className="serviceProvIcon">
-                  <span><BsBank2 size={50}/></span>
+<Link href="/provider/funder"><a>              <Card
+                className="shadow serviceInnerContent pt-4"
+                
+              >
+                <div className="serviceProvIcon">
+                  <span>
+                    <BsBank2 size={50} />
+                  </span>
                 </div>
                 <Card.Body>
                   <h4 className="text-center serviceName">
@@ -112,13 +133,18 @@ const ServiceProvide = () => {
                     farmers have huge goods
                   </Card.Text>
                 </Card.Body>
-              </Card>
+              </Card></a></Link>
             </div>
             <div className="col-md-6 col-xl-3 col-lg-3 col-sm-12 mt-2">
               {" "}
-              <Card className="shadow serviceInnerContent pt-4 " onClick={()=>handleClick("retailer")}>
-              <div className="serviceProvIcon">
-                  <span><ImUser size={50}/></span>
+              <Link href="/provider/retailer"><a><Card
+                className="shadow serviceInnerContent pt-4 "
+                
+              >
+                <div className="serviceProvIcon">
+                  <span>
+                    <ImUser size={50} />
+                  </span>
                 </div>
                 <Card.Body>
                   <h4 className="text-center serviceName">
@@ -130,7 +156,7 @@ const ServiceProvide = () => {
                     services to the farmers
                   </Card.Text>
                 </Card.Body>
-              </Card>
+              </Card></a></Link>
             </div>
           </div>
         </div>

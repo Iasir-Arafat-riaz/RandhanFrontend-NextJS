@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import AlwaysWorkingImg from "public/Images/resources/about.png";
+import AlwaysWorkingImg from "public/Images/about/aboutUsPhoto.png";
 import { TiTick } from "react-icons/ti";
 
 const AlwaysWorking = () => {
