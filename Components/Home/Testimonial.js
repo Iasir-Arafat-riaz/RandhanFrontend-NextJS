@@ -11,6 +11,7 @@ import testim1 from "../../styles/images/testimonial/testimonial-1-1.jpg";
 import testim2 from "../../styles/images/testimonial/testimonial-1-3.jpg";
 import testim3 from "../../styles/images/testimonial/testimonial-2-1.jpg";
 import { Carousel } from "react-bootstrap";
+import Link from "next/link";
 
 const Testimonial = () => {
   return (
@@ -30,12 +31,13 @@ const Testimonial = () => {
                 Proin a lacus arcu. Nullam id dui eu orci maximus. Cras at
                 auctor lectus, pretium tellus.
               </p>
-              <a
-                href="testimonials.html"
+              <Link href="/about/whoWeAre"><a
+                
                 className="thm-btn testimonial-one__btn"
               >
                 View All Feedbacks
-              </a>
+              </a></Link>
+              
             </div>
           </div>
           <div className="col-xl-7 col-lg-7">

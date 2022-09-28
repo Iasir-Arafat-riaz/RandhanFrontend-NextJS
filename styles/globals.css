@@ -10389,6 +10389,9 @@ li {
 .main-nav p {
   font-size: 62.5%;
 }
+.dropdown-menu.show{
+  background-color:#fffffff3;
+}
 
 .logo {
   display: grid;
@@ -10742,12 +10745,7 @@ li {
   z-index: 100;
 }
 
-.carousel-control-prev-icon {
-  display: none;
-}
-.carousel-control-next-icon {
-  display: none;
-}
+
 
 #background-video {
   height: 100%;
@@ -10780,6 +10778,14 @@ video {
 }
 .serviceProvDetail {
   font-size: 14px;
+}
+.singleProdDetails{
+  margin: 40px 50px 70px;
+}
+.singleProdInner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .prodButton, .partnerBtn{
