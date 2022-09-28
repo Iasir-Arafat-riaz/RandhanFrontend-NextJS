@@ -1,11 +1,13 @@
 import CultureDetails from "Components/About/CultureDetails";
 import BrandsServed from "Components/Home/BrandsServed/BrandsServed";
 import CommonBanner from "Components/sustainability/CommonBanner";
-import CultureBanner from "public/Images/about/ourValues.png"
+
 
 const OurValues = () => {
+    const testImg = "/Images/about/ourValues.png"
+console.log(testImg);
     return ( <>
-    <CommonBanner headerBanner={CultureBanner} title={"OUR VALUES"}/>
+    <CommonBanner headerBanner={`/Images/about/ourValues.png`} title={"OUR VALUES"}/>
     <CultureDetails/>
     <BrandsServed/>
     </> );

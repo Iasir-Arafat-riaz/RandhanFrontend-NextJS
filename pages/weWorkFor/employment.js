@@ -1,8 +1,11 @@
 import BrandsServed from "Components/Home/BrandsServed/BrandsServed";
+import CommonBanner from "Components/sustainability/CommonBanner";
+import EmploymentDetails from "Components/WorkFor/EmploymentDetails";
 
 const Employment = () => {
     return ( <>
-    <h1>Employment component</h1>
+    <CommonBanner headerBanner={`/Images/weWorkFor/employment.png`} title={"EMPLOYMENT"} />
+    <EmploymentDetails/>
     <BrandsServed/>
     </> );
 }

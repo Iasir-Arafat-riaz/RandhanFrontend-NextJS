@@ -1,10 +1,10 @@
 import BrandsServed from "Components/Home/BrandsServed/BrandsServed";
 import ManufacturingDetails from "Components/Projects/ManufacturingDetails";
 import CommonBanner from "Components/sustainability/CommonBanner";
- import manufecBanner from "/public/Images/projects/manufacturing.png"
+ 
 const Manufacturing = () => {
     return ( <>
-    <CommonBanner headerBanner={manufecBanner} title={"MANUFACTURING"}/>
+    <CommonBanner headerBanner={`/Images/projects/manufacturing.png`} title={"MANUFACTURING"}/>
     <ManufacturingDetails/>
     <BrandsServed/>
     </> );

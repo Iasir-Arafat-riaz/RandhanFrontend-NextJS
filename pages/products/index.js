@@ -5,7 +5,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import SeoForAll from "Components/ForSeo/SeoForAll";
 import ProductCards from "Components/Products/ProductCards";
-import prodBanner from "public/Images/products/products.png"
+
 import CommonBanner from "Components/sustainability/CommonBanner";
 
 const Products = () => {
@@ -25,10 +25,9 @@ const Products = () => {
 
   return (
     <div>
-      
       <SeoForAll title="Products | Rondhan" />
-      <CommonBanner headerBanner={prodBanner} title={"PRODUCTS"}/>
-      <ProductCards/>
+      <CommonBanner headerBanner={`/Images/products/products.png`} title={"PRODUCTS"} />
+      <ProductCards />
       <BrandsServed />
       {/* <form className="p-5 bg-danger" onSubmit={handleSubmit}>
         <input onChange={inputData} type="text"></input>

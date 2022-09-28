@@ -1,13 +1,12 @@
 import axios from "axios";
 import ApplyJob from "../../Components/Career/ApplyJob";
-import hiringBanner from "public/Images/resources/hiring.png"
 import CommonBanner from "Components/sustainability/CommonBanner";
 const SingleJob = ({ data }) => {
   console.log("here datas", data);
   const { title, description,id } = data;
   return (
     <div>
-      <CommonBanner headerBanner={hiringBanner} title={title}/> 
+      <CommonBanner headerBanner={`/Images/resources/hiring.png`} title={title}/> 
       <div className="m-5">
       <h2 className="m-5">{title}</h2>
       <div dangerouslySetInnerHTML={{ __html: description }} />

@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
-const Product = ({name,photo}) => {
+const Product = ({name,photo,id}) => {
     const router = useRouter();
     return (
         <div>
@@ -21,7 +21,7 @@ const Product = ({name,photo}) => {
                   longer.
                 </Card.Text>
               </Card.Body>
-              <button onClick={()=>router.push("/products/1")} className="prodButton">Details</button>
+              <button onClick={()=>router.push(`/products/${id}`)} className="prodButton">Details</button>
             </Card>
           </Col>
         </div>

@@ -1,12 +1,12 @@
 import ExpertStaff from "Components/About/ExpertStaff";
 import BrandsServed from "Components/Home/BrandsServed/BrandsServed";
 import CommonBanner from "Components/sustainability/CommonBanner";
-import OurClientBanner from "public/Images/about/ourteamBanner.png"
+
 
 const OurTeam = () => {
     return ( <>
     
-    <CommonBanner headerBanner={OurClientBanner} title={"OUR TEAM"}/>
+    <CommonBanner headerBanner={`/Images/about/ourteamBanner.png`} title={"OUR TEAM"}/>
       <ExpertStaff />
       <BrandsServed />
     </> );

@@ -7,7 +7,7 @@ const CommonBanner = ({headerBanner,title}) => {
              <section className="page-header">
       <div
         className="page-header-bg"
-        style={{ backgroundImage: `url(${headerBanner.src})` }}
+        style={{ backgroundImage: `url(${headerBanner})` }}
       ></div>
       <div className="container">
         <div className="page-header__inner">
