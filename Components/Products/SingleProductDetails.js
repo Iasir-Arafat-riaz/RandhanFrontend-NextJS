@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const SingleProductDetails = ({ singleProd }) => {
@@ -34,6 +35,7 @@ const SingleProductDetails = ({ singleProd }) => {
               cumque, dolorum ullam quis id quia ad excepturi, a dicta
               repudiandae eligendi beatae, velit libero.
             </p>
+            <Link href="/contact"><a><button className="prodButton mt-2">Get Code</button></a></Link>
           </div>
         </div>
       </div>

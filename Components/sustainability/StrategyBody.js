@@ -6,7 +6,7 @@ const StrategyBody = () => {
     <div className="m-3">
       <div>
         <br />
-        <h1>SUSTAINABILITY STRATEGY</h1>
+        <h1>SUSTAINABILITY</h1>
         
         <p>
           RONDHAN cares deeply for its communities. A more sustainable world

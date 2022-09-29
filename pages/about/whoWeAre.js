@@ -6,6 +6,7 @@ import HomeOrBusiness from "Components/About/HomeOrBusiness";
 import WhyChossUs from "Components/About/WhyChossUs";
 import SeoForAll from "Components/ForSeo/SeoForAll";
 import BrandsServed from "Components/Home/BrandsServed/BrandsServed";
+import Counter from "Components/Home/Counter";
 import Testimonial from "Components/Home/Testimonial";
 
 const WhoWeAre = () => {
@@ -13,6 +14,7 @@ const WhoWeAre = () => {
     <SeoForAll title="About | Rondhan" />
     <AboutHEader />
       <AlwaysWorking />
+      <Counter/>
       <AboutMiddleBg />
       <Testimonial />
       <BrandsServed />

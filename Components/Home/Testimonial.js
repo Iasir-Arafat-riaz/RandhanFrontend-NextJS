@@ -1,15 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import testiImg1 from "../../styles/images/testimonial/testimonial-one-people1-1.jpg";
-import testiImg2 from "../../styles/images/testimonial/testimonial-one-people1-2.jpg";
-import testiImg3 from "../../styles/images/testimonial/testimonial-one-people1-3.jpg";
-import testiImg4 from "../../styles/images/testimonial/testimonial-one-people1-4.jpg";
-import testiImg5 from "../../styles/images/testimonial/testimonial-one-people1-5.jpg";
-import testiImg6 from "../../styles/images/testimonial/testimonial-one-people1-6.jpg";
 
-import testim1 from "../../styles/images/testimonial/testimonial-1-1.jpg";
-import testim2 from "../../styles/images/testimonial/testimonial-1-3.jpg";
-import testim3 from "../../styles/images/testimonial/testimonial-2-1.jpg";
+
+import testim1 from "../../styles/images/testimonial/feedback1.jpg";
+import testim2 from "../../styles/images/testimonial/feedback2.jpg";
+import testim3 from "../../styles/images/testimonial/feedback3.jpg";
 import { Carousel } from "react-bootstrap";
 import Link from "next/link";
 
@@ -84,7 +79,7 @@ const Testimonial = () => {
                       </a>
                     </div>
                     <h3 className="testimonial-one__title">
-                      Great job and fair pricing
+                      I got best Quality product
                     </h3>
                   </div>
                   <p className="testimonial-one__text">
@@ -95,7 +90,54 @@ const Testimonial = () => {
                   <div className="testimonial-one__client-info-box">
                     <div className="testimonial-one__client-info">
                       <div className="testimonial-one__client-img">
-                        <Image src={testim1} alt="img" />
+                        <Image width={65} height={65} src={testim1} alt="img" />
+                      </div>
+                      <div className="testimonial-one__client-content">
+                        <h4 className="testimonial-one__client-name">
+                          Korim Mojumder
+                        </h4>
+                        <p className="testimonial-one__client-title">
+                          Customer
+                        </p>
+                      </div>
+                    </div>
+                    <div className="testimonial-one__quote">
+                      <span className="icon-quote"></span>
+                    </div>
+                  </div>
+                </Carousel.Item>
+                <Carousel.Item className="testimonial-one__single">
+                  <div className="testimonial-one__feedback-box">
+                    <div className="testimonial-one__feedback">
+                      <a href="#">
+                        <i className="fa fa-star"></i>
+                      </a>
+                      <a href="#">
+                        <i className="fa fa-star"></i>
+                      </a>
+                      <a href="#">
+                        <i className="fa fa-star"></i>
+                      </a>
+                      <a href="#">
+                        <i className="fa fa-star"></i>
+                      </a>
+                      <a href="#">
+                        <i className="fa fa-star"></i>
+                      </a>
+                    </div>
+                    <h3 className="testimonial-one__title">
+                      Best product and fair pricing
+                    </h3>
+                  </div>
+                  <p className="testimonial-one__text">
+                    Proin a lacus arcu. Nullam id dui eu orci maximus. Cras at
+                    auctor lectus, vel pretium tellus. className aptent sociosqu
+                    ad litora torquent per conubia nostra.
+                  </p>
+                  <div className="testimonial-one__client-info-box">
+                    <div className="testimonial-one__client-info">
+                      <div className="testimonial-one__client-img">
+                        <Image width={65} height={65} src={testim2} alt="img" />
                       </div>
                       <div className="testimonial-one__client-content">
                         <h4 className="testimonial-one__client-name">
@@ -142,54 +184,7 @@ const Testimonial = () => {
                   <div className="testimonial-one__client-info-box">
                     <div className="testimonial-one__client-info">
                       <div className="testimonial-one__client-img">
-                        <Image src={testim2} alt="img" />
-                      </div>
-                      <div className="testimonial-one__client-content">
-                        <h4 className="testimonial-one__client-name">
-                          Jessica Brown
-                        </h4>
-                        <p className="testimonial-one__client-title">
-                          Customer
-                        </p>
-                      </div>
-                    </div>
-                    <div className="testimonial-one__quote">
-                      <span className="icon-quote"></span>
-                    </div>
-                  </div>
-                </Carousel.Item>
-                <Carousel.Item className="testimonial-one__single">
-                  <div className="testimonial-one__feedback-box">
-                    <div className="testimonial-one__feedback">
-                      <a href="#">
-                        <i className="fa fa-star"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fa fa-star"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fa fa-star"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fa fa-star"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fa fa-star"></i>
-                      </a>
-                    </div>
-                    <h3 className="testimonial-one__title">
-                      Great job and fair pricing
-                    </h3>
-                  </div>
-                  <p className="testimonial-one__text">
-                    Proin a lacus arcu. Nullam id dui eu orci maximus. Cras at
-                    auctor lectus, vel pretium tellus. className aptent sociosqu
-                    ad litora torquent per conubia nostra.
-                  </p>
-                  <div className="testimonial-one__client-info-box">
-                    <div className="testimonial-one__client-info">
-                      <div className="testimonial-one__client-img">
-                        <Image src={testim3} alt="img" />
+                        <Image width={65} height={65} src={testim3} alt="img" />
                       </div>
                       <div className="testimonial-one__client-content">
                         <h4 className="testimonial-one__client-name">

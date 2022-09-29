@@ -10,7 +10,7 @@ import Link from "next/link";
 const FeatureOne = () => {
   return (
     <section className="feature-one">
-      <div className="container">
+      <div >
         <div className="feature-one__inner">
           <ul className="list-unstyled feature-one__list">
             <li className="feature-one__single " data-wow-delay="100ms">

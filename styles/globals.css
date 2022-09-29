@@ -511,7 +511,7 @@ ul {
 .feature-one__inner {
   position: relative;
   display: block;
-  background-color: var(--wostin-black);
+  background-color: #404a3df8;
   padding: 78px 0 54px;
   margin-top: -80px;
 }
@@ -1354,6 +1354,7 @@ ul {
   display: block;
   /* background-color: var(--wostin-base); */
   /* padding: 90px 0 90px; */
+  margin-bottom: -10px;
 }
 
 .counter-one-bg-box {
@@ -1389,9 +1390,6 @@ ul {
   padding-right: 40px;
   margin-bottom: 30px;
   -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
   z-index: 1;
 }
 
@@ -10747,19 +10745,13 @@ li {
 
 
 
-#background-video {
-  height: 100%;
-  width: 100%;
-  float: left;
-  top: 0;
-  padding: none;
-  position: fixed; /* optional depending on what you want to do in your app */
-}
+
 
 video {
   width: 100%;
   height: 400px;
   object-fit: cover;
+  
 }
 .videoContent {
   position: absolute;
@@ -10767,6 +10759,7 @@ video {
   width: 100%;
   height: 100%;
   top: 15px;
+  
   
   display: flex;
   align-items: center;
@@ -10787,7 +10780,9 @@ video {
   justify-content: center;
   align-items: center;
 }
-
+.carousel-control-prev-icon,.carousel-control-next-icon{
+  visibility: hidden;
+}
 .prodButton, .partnerBtn{
   border: 0px;
   padding: 5px 15px;
@@ -10798,7 +10793,7 @@ video {
   -webkit-appearance: none;
   outline: none !important;
   background-color: var(--wostin-base);
-  color: var(--wostin-primary);
+  color: var(--wostin-white);
   font-size: 16px;
   font-weight: 700;
   -webkit-transition: all 0.5s linear;
