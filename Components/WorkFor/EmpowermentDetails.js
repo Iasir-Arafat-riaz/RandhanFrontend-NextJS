@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const EmpowermentDetails = () => {
-    return (
-        <div className="m-3">
+  return (
+    <div className="m-3">
       <div className="mt-5 mb-5">
         <h2 className="mb-3">
-          <b>EMPOWERMENT</b>
+          <b>EMPOWERED FARMERS</b>
         </h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
@@ -33,7 +33,7 @@ const EmpowermentDetails = () => {
         </p>
       </div>
     </div>
-    );
+  );
 };
 
 export default EmpowermentDetails;

@@ -12,7 +12,7 @@ const PartnersDetails = () => {
           <div className="retailerDiv">
             <Image width={400} height={250} src={retailerImage} />
             <div className="mt-3">
-              <Link href="/contact/retailerPartner"><a><button className="partnerBtn">Retailer</button></a></Link>
+              <Link href="/contact/retailerPartner"><a><button className="partnerBtn">RETAILER</button></a></Link>
             </div>
           </div>
         </div>
@@ -20,7 +20,7 @@ const PartnersDetails = () => {
           <div className="retailerDiv">
             <Image width={400} height={250} src={dealerImage} />
             <div className="mt-3">
-            <Link href="/contact/dealerPartner"><a><button className="partnerBtn">Dealer</button></a></Link>
+            <Link href="/contact/dealerPartner"><a><button className="partnerBtn">DEALER</button></a></Link>
             </div>
           </div>
         </div>

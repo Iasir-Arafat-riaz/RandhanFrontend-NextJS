@@ -5,7 +5,7 @@ import EmpowermentDetails from "Components/WorkFor/EmpowermentDetails";
 
 const Empowerment = () => {
     return ( <>
-    <CommonBanner headerBanner={`/Images/weWorkFor/empowermentBanner.png`} title={"EMPOWERMENT"}/>
+    <CommonBanner headerBanner={`/Images/weWorkFor/empowermentBanner.png`} title={"EMPOWERED FARMERS"}/>
     <EmpowermentDetails/>
     <BrandsServed/>
     </> );

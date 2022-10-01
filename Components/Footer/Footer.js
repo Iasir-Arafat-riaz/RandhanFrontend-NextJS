@@ -191,7 +191,7 @@ const Footer = () => {
                   </div>
                   <Link href="/contact/be-A-Partner">
                     <a>
-                      <button className="footerPartnerBtn">Be A Partner</button>
+                      <p className="footerPartnerBtn">Be A Partner</p>
                     </a>
                   </Link>
 

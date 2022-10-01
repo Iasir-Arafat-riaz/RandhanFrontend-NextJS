@@ -35,7 +35,7 @@ const SingleProductDetails = ({ singleProd }) => {
               cumque, dolorum ullam quis id quia ad excepturi, a dicta
               repudiandae eligendi beatae, velit libero.
             </p>
-            <Link href="/contact"><a><button className="prodButton mt-2">Get Code</button></a></Link>
+            <Link href="/contact"><a><button className="prodButton mt-2">Get Quotation</button></a></Link>
           </div>
         </div>
       </div>

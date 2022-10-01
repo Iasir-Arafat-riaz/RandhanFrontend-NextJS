@@ -621,8 +621,8 @@ ul {
 }
 .serviceProvIcon {
   /* position: absolute; */
-  height: 110px;
-  width: 110px;
+  height: 90px;
+  width: 90px;
   background-color: var(--custom-brand-red);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -765,7 +765,7 @@ ul {
 
 .leading-waste__big-text {
   position: absolute;
-  top: 0px;
+  top: -60px;
   bottom: 0;
   left: -110px;
   /* -webkit-transform: rotate(90deg);
@@ -773,10 +773,10 @@ ul {
 }
 
 .leading-waste__big-text p {
-  font-size: 90px;
+  font-size: 80px;
   color: var(--wostin-extra);
   text-transform: uppercase;
-  line-height: 80px;
+  line-height: 75px;
   letter-spacing: 0.26em;
   font-weight: 900;
   opacity: 0.3;
@@ -1004,7 +1004,7 @@ ul {
   box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
 }
 
-.industries-one__content::after {
+/* .industries-one__content::after {
   position: absolute;
   bottom: -1px;
   right: -1px;
@@ -1014,15 +1014,15 @@ ul {
   border-bottom: 30px solid var(--wostin-bdr-color);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
-}
+} */
 
-.industries-one__single:hover .industries-one__content::after {
+/* .industries-one__single:hover .industries-one__content::after {
   border-bottom: 30px solid var(--wostin-primary);
-}
+} */
 
 .industries-one__icon {
-  height: 90px;
-  width: 90px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.74);
   -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
@@ -1406,7 +1406,7 @@ ul {
   right: 0;
   left: 0;
   /* background-color: rgba(var(--wostin-black-rgb), 0.5); */
-  background-color: rgba(0, 0, 0, 0.795);
+  background-color: rgba(0, 0, 0, 0.603);
   content: "";
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -1521,7 +1521,7 @@ ul {
   position: relative;
   display: block;
   background-color: #857e7f;
-  padding: 50px 50px;
+  padding: 100px 50px;
 }
 
 .services-one__single {
@@ -2964,12 +2964,14 @@ ul {
   color: var(--wostin-white);
 }
 .footerPartnerBtn {
+  display: inline;
   background-color: transparent;
   margin-top: 10px;
   color: var(--wostin-primary);
-  border: 1px solid var(--wostin-primary);
+  /* border: 1px solid var(--wostin-primary); */
+  border: 0;
   font-size: 14px;
-  padding: 2px 8px;
+  padding: 2px 2px;
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
   overflow: hidden;
@@ -10733,7 +10735,7 @@ li {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.795);
+  background-color: rgba(0, 0, 0, 0.603);
   color: var(--wostin-bdr-color);
 }
 

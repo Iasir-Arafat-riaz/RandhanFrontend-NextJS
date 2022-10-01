@@ -26,9 +26,9 @@ const LeadingManagement = () => {
                     <span>03+</span> <br /> Years of <br /> Experience
                   </p>
                 </div>
-                <div className="leading-waste__img-shape-1 float-bob-x">
+                {/* <div className="leading-waste__img-shape-1 float-bob-x">
                   <Image src={leadingImgShape} alt="image" />
-                </div>
+                </div> */}
                 <div className="leading-waste__big-text">
                   <p>R</p>
                   <p>o</p>

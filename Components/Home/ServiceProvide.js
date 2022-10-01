@@ -71,7 +71,7 @@ const ServiceProvide = () => {
                   <Card className="shadow serviceInnerContent pt-4">
                     <div className="serviceProvIcon">
                       <span>
-                        <GiFarmer size={50} />
+                        <GiFarmer size={40} />
                       </span>
                       {/* <Image src={farmer} alt="image"></Image> */}
                     </div>
@@ -97,7 +97,7 @@ const ServiceProvide = () => {
               >
                 <div className="serviceProvIcon">
                   <span>
-                    <IoIosMan size={50} />
+                    <IoIosMan size={40} />
                   </span>
                 </div>
                 <Card.Body>
@@ -120,7 +120,7 @@ const ServiceProvide = () => {
               >
                 <div className="serviceProvIcon">
                   <span>
-                    <BsBank2 size={50} />
+                    <BsBank2 size={40} />
                   </span>
                 </div>
                 <Card.Body>
@@ -143,7 +143,7 @@ const ServiceProvide = () => {
               >
                 <div className="serviceProvIcon">
                   <span>
-                    <ImUser size={50} />
+                    <ImUser size={40} />
                   </span>
                 </div>
                 <Card.Body>

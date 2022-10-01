@@ -35,26 +35,31 @@ const Industries = () => {
                 <Image src={industryImg4} alt="image" />
               </div>
               <div className="industries-one__content">
-                <div className="industries-one__icon">
-                  <span className="icon-grocery">
-                    <MdAgriculture size={40} />
-                  </span>
-                </div>
+                <Link href="/weWorkFor/agroTech">
+                  <a>
+                    <div className="industries-one__icon">
+                      <span className="icon-grocery">
+                        <MdAgriculture size={30} />
+                      </span>
+                    </div>
+                  </a>
+                </Link>
                 <h3 className="industries-one__title">
-                  <Link href="/weWorkFor/agroTech"><a >AGRO TECH</a></Link>
-                  
+                  <Link href="/weWorkFor/agroTech">
+                    <a>AGRO TECH</a>
+                  </Link>
                 </h3>
                 <p className="industries-one__text">
                   Sed quia magni dolores eos ratione voluptatem sequi site.
                 </p>
-                <div className="industries-one__arrow">
+                {/* <div className="industries-one__arrow">
                   <Link href="/weWorkFor/agroTech"><a>
                     <i>
                       <AiOutlineArrowRight size={20} />
                     </i>
                   </a></Link>
                   
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -68,24 +73,30 @@ const Industries = () => {
               </div>
 
               <div className="industries-one__content">
-                <div className="industries-one__icon">
-                  <span className="icon-shop">
-                    <FaUserInjured size={40} />
-                  </span>
-                </div>
+                <Link href="/weWorkFor/consumer">
+                  <a>
+                    <div className="industries-one__icon">
+                      <span className="icon-shop">
+                        <FaUserInjured size={30} />
+                      </span>
+                    </div>
+                  </a>
+                </Link>
                 <h3 className="industries-one__title">
-                  <Link href="/weWorkFor/consumer"><a>CONSUMER</a></Link>
+                  <Link href="/weWorkFor/consumer">
+                    <a>CONSUMER</a>
+                  </Link>
                 </h3>
                 <p className="industries-one__text">
                   Sed quia magni dolores eos ratione voluptatem sequi site.
                 </p>
-                <div className="industries-one__arrow">
+                {/* <div className="industries-one__arrow">
                   <Link href="/weWorkFor/consumer"><a>
                     <i>
                       <AiOutlineArrowRight size={20} />
                     </i>
                   </a></Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -95,27 +106,33 @@ const Industries = () => {
           >
             <div className="industries-one__single">
               <div className="industries-one__img">
-                <Image src={industryImg2} alt="" />
+                <Image src={industryImg2} alt="image" />
               </div>
               <div className="industries-one__content">
-                <div className="industries-one__icon">
-                  <span className="icon-grocery">
-                    <ImPowerCord size={40} />
-                  </span>
-                </div>
+                <Link href="/weWorkFor/empowerment">
+                  <a>
+                    <div className="industries-one__icon">
+                      <span className="icon-grocery">
+                        <ImPowerCord size={30} />
+                      </span>
+                    </div>
+                  </a>
+                </Link>
                 <h3 className="industries-one__title">
-                  <Link href="/weWorkFor/empowerment"><a>EMPOWERMENT</a></Link>
+                  <Link href="/weWorkFor/empowerment">
+                    <a>EMPOWERED FARMERS</a>
+                  </Link>
                 </h3>
                 <p className="industries-one__text">
                   Sed quia magni dolores eos ratione voluptatem sequi site.
                 </p>
-                <div className="industries-one__arrow">
+                {/* <div className="industries-one__arrow">
                   <Link href="/weWorkFor/empowerment"><a>
                     <i>
                       <AiOutlineArrowRight size={20} />
                     </i>
                   </a></Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -128,24 +145,28 @@ const Industries = () => {
                 <Image src={industryImg3} alt="" />
               </div>
               <div className="industries-one__content">
+                <Link href="/weWorkFor/employment"><a>
                 <div className="industries-one__icon">
                   <span className="icon-grocery">
-                    <FaUserTie size={40} />
+                    <FaUserTie size={30} />
                   </span>
                 </div>
+                  </a></Link>
                 <h3 className="industries-one__title">
-                  <Link href="/weWorkFor/employment"><a >EMPLOYMENT</a></Link>
+                  <Link href="/weWorkFor/employment">
+                    <a>EMPLOYMENT CREATION</a>
+                  </Link>
                 </h3>
                 <p className="industries-one__text">
                   Sed quia magni dolores eos ratione voluptatem sequi site.
                 </p>
-                <div className="industries-one__arrow">
+                {/* <div className="industries-one__arrow">
                   <Link href="/weWorkFor/employment"><a>
                     <i>
                       <AiOutlineArrowRight size={20} />
                     </i>
                   </a></Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

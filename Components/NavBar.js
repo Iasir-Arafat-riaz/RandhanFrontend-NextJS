@@ -22,7 +22,7 @@ const NavBar = () => {
       <nav className="main-nav">
         {/* 1st logo part */}
         <div className="logo">
-          <Image onClick={goHome} src={navLogo}></Image>
+          <Image alt="image" onClick={goHome} src={navLogo}></Image>
         </div>
         {/* 2nd menu part  */}
         <div

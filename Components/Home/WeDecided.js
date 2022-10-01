@@ -18,7 +18,7 @@ const WeDecided = () => {
                                 do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.</p>
                             <div className="we-dedicated__progress">
                                 <div className="we-dedicated__progress-single">
-                                    <h4 className="we-dedicated__progress-title">Food Management</h4>
+                                    <h4 className="we-dedicated__progress-title">Farming</h4>
                                     <div className="bar">
                                         <div className="bar-inner count-bar" data-percent="90%">
                                             <div className="count-text">90%</div>
@@ -26,14 +26,32 @@ const WeDecided = () => {
                                     </div>
                                 </div>
                                 <div className="we-dedicated__progress-single">
-                                    <h4 className="we-dedicated__progress-title">Recycling</h4>
+                                    <h4 className="we-dedicated__progress-title">Supply Chain</h4>
+                                    <div className="bar ">
+                                        <div className="bar-inner count-bar" data-percent="46%">
+                                            <div className="count-text">46%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="we-dedicated__progress-single">
+                                    <h4 className="we-dedicated__progress-title">Sustainable Farming</h4>
+                                    <div className="bar ">
+                                        <div className="bar-inner count-bar" data-percent="46%">
+                                            <div className="count-text">46%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="we-dedicated__progress-single">
+                                    <h4 className="we-dedicated__progress-title">Infrastructure Development</h4>
                                     <div className="bar marb-0">
                                         <div className="bar-inner count-bar" data-percent="46%">
                                             <div className="count-text">46%</div>
                                         </div>
                                     </div>
                                 </div>
+                                
                             </div>
+                            
                         </div>
                     </div>
                     <div className="col-xl-6">

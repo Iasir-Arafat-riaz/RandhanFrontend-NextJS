@@ -35,7 +35,7 @@ const BrandsServed = () => {
           disableOnInteraction: false,
         }}
         onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log("slide change")}
+        // onSlideChange={() => console.log("slide change")}
         breakpoints={{
           0: { slidesPerView: 2, spaceBetween: 10 },
           480: { slidesPerView: 2, spaceBetween: 10 },
