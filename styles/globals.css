@@ -512,8 +512,9 @@ ul {
   position: relative;
   display: block;
   background-color: #404a3df8;
-  padding: 78px 0 54px;
-  margin-top: -80px;
+  padding: 78px 50px 54px;
+  /* margin-top: -80px; */
+  margin: -80px 90px 0px 90px;
 }
 
 .feature-one__list {
@@ -2962,7 +2963,7 @@ ul {
 .site-footer__bottom-text a:hover {
   color: var(--wostin-white);
 }
-.footerPartnerBtn{
+.footerPartnerBtn {
   background-color: transparent;
   margin-top: 10px;
   color: var(--wostin-primary);
@@ -2974,7 +2975,7 @@ ul {
   overflow: hidden;
   z-index: 1;
 }
-.footerPartnerBtn:hover{
+.footerPartnerBtn:hover {
   color: var(--wostin-white);
   background-color: var(--wostin-base);
 }
@@ -4165,12 +4166,13 @@ ul {
   font-weight: 500;
   padding: 20px 40px 30px;
 }
-.contactBeAPartner{
+.contactBeAPartner {
   position: relative;
   display: block;
   margin-bottom: 20px;
 }
-.contactBeAPartner input[type="text"],.contactBeAPartner input[type="email"]{
+.contactBeAPartner input[type="text"],
+.contactBeAPartner input[type="email"] {
   height: 63px;
   width: 50%;
   border: none;
@@ -4190,13 +4192,12 @@ ul {
   border: 0;
 }
 
-.retailerDiv{
+.retailerDiv {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-
 
 /*--------------------------------------------------------------
 # Google Map
@@ -4497,7 +4498,6 @@ ul {
 }
 
 .cta-one__btn {
-  
   color: var(--wostin-white);
   border: 1px solid var(--wostin-base);
 }
@@ -10387,8 +10387,8 @@ li {
 .main-nav p {
   font-size: 62.5%;
 }
-.dropdown-menu.show{
-  background-color:#fffffff3;
+.dropdown-menu.show {
+  background-color: #fffffff3;
 }
 
 .logo {
@@ -10673,10 +10673,14 @@ li {
 
 .brandSliders img {
   opacity: 0.5;
+  filter: grayscale(100%);
+
 }
 .brandSliders img:hover {
   opacity: 1;
   transition: all 1s;
+  filter: grayscale(0%);
+  
 }
 
 .indImg {
@@ -10735,23 +10739,18 @@ li {
   color: var(--wostin-bdr-color);
 }
 
-.serviceInnerContent:hover .serviceProvIcon{
+.serviceInnerContent:hover .serviceProvIcon {
   background-color: var(--wostin-primary);
   color: var(--wostin-base);
-  
+
   transition: all 0.8s cubic-bezier(0.62, 0.21, 0.45, 1.52);
   z-index: 100;
 }
-
-
-
-
 
 video {
   width: 100%;
   height: 400px;
   object-fit: cover;
-  
 }
 .videoContent {
   position: absolute;
@@ -10759,8 +10758,7 @@ video {
   width: 100%;
   height: 100%;
   top: 15px;
-  
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10772,18 +10770,20 @@ video {
 .serviceProvDetail {
   font-size: 14px;
 }
-.singleProdDetails{
+.singleProdDetails {
   margin: 40px 50px 70px;
 }
-.singleProdInner{
+.singleProdInner {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.carousel-control-prev-icon,.carousel-control-next-icon{
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   visibility: hidden;
 }
-.prodButton, .partnerBtn{
+.prodButton,
+.partnerBtn {
   border: 0px;
   padding: 5px 15px;
   /* background-color: var(--wostin-primary); */
@@ -10801,7 +10801,8 @@ video {
   overflow: hidden;
   z-index: 1;
 }
-.prodButton:hover,.partnerBtn:hover {
+.prodButton:hover,
+.partnerBtn:hover {
   color: var(--wostin-black);
   background-color: var(--wostin-primary);
 }

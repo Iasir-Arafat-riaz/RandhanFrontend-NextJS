@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 
-
 import testim1 from "../../styles/images/testimonial/feedback1.jpg";
 import testim2 from "../../styles/images/testimonial/feedback2.jpg";
 import testim3 from "../../styles/images/testimonial/feedback3.jpg";
@@ -26,13 +25,11 @@ const Testimonial = () => {
                 Proin a lacus arcu. Nullam id dui eu orci maximus. Cras at
                 auctor lectus, pretium tellus.
               </p>
-              <Link href="/about/whoWeAre"><a
-                
-                className="thm-btn testimonial-one__btn"
-              >
-                View All Feedbacks
-              </a></Link>
-              
+              <Link href="/about/whoWeAre">
+                <a className="thm-btn testimonial-one__btn">
+                  View All Feedbacks
+                </a>
+              </Link>
             </div>
           </div>
           <div className="col-xl-7 col-lg-7">

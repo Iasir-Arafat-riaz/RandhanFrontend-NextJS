@@ -6,11 +6,11 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import Brand from "./Brand";
-import brandImg1 from "../../../public/Images/Brand/brand-1-1.png";
-import brandImg2 from "../../../public/Images/Brand/brand-1-2.png";
-import brandImg3 from "../../../public/Images/Brand/brand-1-3.png";
-import brandImg4 from "../../../public/Images/Brand/brand-1-4.png";
-import brandImg5 from "../../../public/Images/Brand/brand-1-5.png";
+import brandImg1 from "../../../public/Images/Brand/iglooLogo.png";
+import brandImg2 from "../../../public/Images/Brand/pran.png";
+import brandImg3 from "../../../public/Images/Brand/square.png";
+import brandImg4 from "../../../public/Images/Brand/beximco.png";
+import brandImg5 from "../../../public/Images/Brand/bashundhara.png";
 import clientsBg from "../../../public/Images/backgroundImg/ourClients.png";
 
 const BrandsServed = () => {

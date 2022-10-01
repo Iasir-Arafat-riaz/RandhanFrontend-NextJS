@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
-import leadingImg from "public/Images/resources/exp.jpg";
+import leadingImg from "public/Images/resources/expi.jpg";
 import leadingImgShape from "public/Images/resources/expShape.png";
 
 import { TiTick } from "react-icons/ti";
@@ -19,7 +19,7 @@ const LeadingManagement = () => {
                 data-wow-duration="2500ms"
               >
                 <div className="leading-waste__img">
-                  <Image src={leadingImg} alt="" />
+                  <Image width={500} height={350} src={leadingImg} alt="" />
                 </div>
                 <div className="leading-waste__experience">
                   <p>
