@@ -10674,13 +10674,11 @@ li {
 .brandSliders img {
   opacity: 0.5;
   filter: grayscale(100%);
-
 }
 .brandSliders img:hover {
   opacity: 1;
   transition: all 1s;
   filter: grayscale(0%);
-  
 }
 
 .indImg {
