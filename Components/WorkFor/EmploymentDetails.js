@@ -5,7 +5,7 @@ const EmploymentDetails = () => {
         <div className="m-3">
       <div className="mt-5 mb-5">
         <h2 className="mb-3">
-          <b>EMPLOYMENT</b>
+          <b>EMPLOYMENT CREATION</b>
         </h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti

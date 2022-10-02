@@ -29,10 +29,6 @@ const Products = () => {
       <CommonBanner headerBanner={`/Images/products/products.png`} title={"PRODUCTS"} />
       <ProductCards />
       <BrandsServed />
-      {/* <form className="p-5 bg-danger" onSubmit={handleSubmit}>
-        <input onChange={inputData} type="text"></input>
-        <input type="submit"></input>
-      </form> */}
     </div>
   );
 };

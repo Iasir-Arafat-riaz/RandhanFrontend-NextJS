@@ -1,6 +1,16 @@
 import React from "react";
+import { useState } from "react";
 
 const EconomicalBody = () => {
+  const [num,setNum]=useState(0)
+  
+ 
+
+  const handleLudu=()=>{
+    const ludu =Math.random()*6;
+    setNum(Math.ceil(ludu))
+  }
+
   return (
     <div className="m-3">
       <div>
@@ -16,6 +26,8 @@ const EconomicalBody = () => {
           market. Our focus on acquiring more international outsourcing services
           will enhance the inflow of remittance in Bangladesh.
         </p>
+        <h4 className="mx-5">{num}</h4>
+        <button onClick={handleLudu} className="prodButton mt-2">chess yourself</button>
       </div>
     </div>
   );
