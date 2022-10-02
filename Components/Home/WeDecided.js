@@ -42,7 +42,7 @@ const WeDecided = () => {
                                     </div>
                                 </div>
                                 <div className="we-dedicated__progress-single">
-                                    <h4 className="we-dedicated__progress-title">Infrastructure Development</h4>
+                                    <h4 className="we-dedicated__progress-title">Agricultural Infrastructure Development</h4>
                                     <div className="bar marb-0">
                                         <div className="bar-inner count-bar" data-percent="46%">
                                             <div className="count-text">46%</div>

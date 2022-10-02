@@ -12,14 +12,14 @@ const CommonBanner = ({headerBanner,title}) => {
       <div className="container">
         <div className="page-header__inner">
           <h2>{title}</h2>
-          <ul className="thm-breadcrumb list-unstyled">
+          {/* <ul className="thm-breadcrumb list-unstyled">
             <li>
               <Link href="/">
                 <a>Home</a>
               </Link>
             </li>
             <li>{title}</li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </section>

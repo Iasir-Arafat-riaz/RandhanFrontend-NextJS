@@ -5,6 +5,7 @@ import footerLogo from "styles/images/logo-1.png";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { FiPhoneCall } from "react-icons/fi";
+import { FaIndustry } from "react-icons/fa";
 
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -179,8 +180,11 @@ const Footer = () => {
                   <h3 className="footer-widget__title">CONTACT</h3>
                   <div className="footer-widget__contact-text">
                     <p>
-                      <FaMapMarkerAlt size={15} /> House - 54/A, Road - 132,
+                      <FaMapMarkerAlt size={15} /> Corporate Office : H # 54/A, R # 132,
                       Gulshan Circle-1, Dhaka-1212
+                    </p>
+                    <p>
+                      <FaIndustry size={15} /> Factory Address : Danaidah, Boraigram, Natore 6613, Bangladesh 
                     </p>
                     <p>
                       <AiOutlineMail size={15} /> info@rondhan.com
@@ -224,10 +228,7 @@ const Footer = () => {
         <div className="site-footer__bottom">
           <div
             className="site-footer-bottom-shape"
-            style={{
-              backgroundImage:
-                "url(assets/images/shapes/site-footer-bottom-shape.png)",
-            }}
+            
           ></div>
           <div className="container">
             <div className="row">
@@ -236,7 +237,7 @@ const Footer = () => {
                   <p className="site-footer__bottom-text">
                     <b>
                       © 2022 <a href="#">Rondhan.com</a>. All Rights Reserved.
-                      Developed by VMSL
+                      Developed by <a target="_blank" rel="noreferrer" href="https://www.vmsl.com.bd">VMSL</a>
                     </b>
                   </p>
                 </div>

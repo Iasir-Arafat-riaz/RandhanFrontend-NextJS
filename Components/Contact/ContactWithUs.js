@@ -2,6 +2,7 @@ import React from "react";
 import { MdOutlineForwardToInbox } from "react-icons/md";
 import { BiPhoneCall } from "react-icons/bi";
 import { MdLocationOn } from "react-icons/md";
+import { FaIndustry } from "react-icons/fa";
 import { useRouter } from "next/router";
 
 const ContactWithUs = () => {
@@ -59,13 +60,24 @@ const ContactWithUs = () => {
                     </span>
                   </div>
                   <div className="text">
-                    <p>Visit Us Anytime</p>
+                    <p>Corporate Office</p>
                     <span>House 54/A, road 134, Gulshan</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="icon">
+                    <span className="icon-placeholder">
+                      <FaIndustry size={30} />
+                    </span>
+                  </div>
+                  <div className="text">
+                    <p>Factory Address</p>
+                    <span>Danaidah, Boraigram, Natore 6613, Bangladesh</span>
                   </div>
                 </li>
               </ul>
             </div>
-            <div style={{marginTop:"100px"}}>
+            <div style={{marginTop:"50px"}}>
               <button onClick={goBeAPartner} className="thm-btn contact-one__btn ">
                 Be A Partner
               </button>

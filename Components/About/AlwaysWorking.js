@@ -45,7 +45,7 @@ const AlwaysWorking = () => {
                   </div>
                 </li>
               </ul>
-              <ul className="list-unstyled always-working__bottom">
+              {/* <ul className="list-unstyled always-working__bottom">
                 <li>
                   <div className="always-working__count"></div>
                   <div className="always-working__content">
@@ -62,7 +62,7 @@ const AlwaysWorking = () => {
                     </h3>
                   </div>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
           <div className="col-xl-6">
