@@ -3367,11 +3367,9 @@ ul {
 # Testimonial Three
 --------------------------------------------------------------*/
 
-
 .testimonial-three__left .section-title {
   margin-bottom: 30px;
 }
-
 
 /*--------------------------------------------------------------
 # Introduction
@@ -3564,7 +3562,6 @@ ul {
 # Working Process
 --------------------------------------------------------------*/
 
-
 .section-title__title {
   color: var(--wostin-white);
 }
@@ -3675,30 +3672,17 @@ ul {
   color: var(--wostin-white);
 }
 
-
-
-
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
-
-
 
 .comment-form__input-box.text-message-box {
   height: 170px;
 }
 
-
-
-
-
-
-
-
 /*--------------------------------------------------------------
 # Contact Two
 --------------------------------------------------------------*/
-
 
 .contact-two .container {
   max-width: 770px;
@@ -3729,12 +3713,9 @@ ul {
   margin-right: 30px; */
 }
 
-
-
 /*--------------------------------------------------------------
 # Similar Projects
 --------------------------------------------------------------*/
-
 
 .similar-projects .project-one__content {
   padding: 19px 0px 27px;
@@ -3746,7 +3727,6 @@ ul {
   font-size: 34px;
 }
 
-
 /*--------------------------------------------------------------
 # Team Details
 --------------------------------------------------------------*/
@@ -3754,8 +3734,6 @@ ul {
 .team-details__bottom-left .section-title {
   margin-bottom: 0;
 }
-
-
 
 .team-details__bottom-right .we-dedicated__progress {
   margin-top: 0;
@@ -3768,9 +3746,6 @@ ul {
 .team-details__bottom-right .we-dedicated__progress .bar.marb-0 {
   margin-bottom: 0;
 }
-
-
-
 
 /*--------------------------------------------------------------
 ## Error Page
@@ -3876,10 +3851,6 @@ ul {
 .contact-page {
   padding-top: 120px;
 }
-
-
-
-
 
 /*--------------------------------------------------------------
 # Always Working
@@ -4201,10 +4172,6 @@ ul {
   }
 }
 
-
-
-
-
 .service-tabs__links {
   max-width: 310px;
 }
@@ -4218,9 +4185,6 @@ ul {
     opacity: 1 !important;
   }
 }
-
-
-
 
 @media (max-width: 1199px) {
   .mobile-nav__container .service-tabs [class*="col-"] {
@@ -4283,8 +4247,6 @@ ul {
 .bg.bg1 {
   background-image: url("https://i.ibb.co/wy6wQr4/main-slider-1-1.jpg");
 }
-
-
 
 /* html {
   font-size: 62.5%;
@@ -4433,8 +4395,6 @@ li {
 }
 
 /* hero section   */
-
-
 
 /* responsive css style  */
 @media (max-width: 1080px) {

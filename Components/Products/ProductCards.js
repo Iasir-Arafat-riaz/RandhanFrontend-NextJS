@@ -51,7 +51,7 @@ const ProductCards = () => {
       name: "MUSTARD OIL",
       details:
         "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer",
-      photo: `/Images/products/MustardOil2.jpg`,
+      photo: `/Images/products/sorisha.jpg`,
     },
     {
       id: 8,
