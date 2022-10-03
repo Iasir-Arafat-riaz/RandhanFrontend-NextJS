@@ -61,7 +61,7 @@ const ContactWithUs = () => {
                   </div>
                   <div className="text">
                     <p>Corporate Office</p>
-                    <span>House 54/A, road 134, Gulshan</span>
+                    <span>House 54/A, road 132, Gulshan</span>
                   </div>
                 </li>
                 <li>
