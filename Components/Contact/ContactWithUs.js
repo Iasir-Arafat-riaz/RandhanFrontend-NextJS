@@ -67,7 +67,7 @@ const ContactWithUs = () => {
                 <li>
                   <div className="icon">
                     <span className="icon-placeholder">
-                      <FaIndustry size={30} />
+                      <FaIndustry size={25} />
                     </span>
                   </div>
                   <div className="text">

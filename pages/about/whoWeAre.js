@@ -3,7 +3,6 @@ import AboutMiddleBg from "Components/About/AboutMiddleBg";
 import AlwaysWorking from "Components/About/AlwaysWorking";
 import ExpertStaff from "Components/About/ExpertStaff";
 import HomeOrBusiness from "Components/About/HomeOrBusiness";
-import WhyChossUs from "Components/About/WhyChossUs";
 import SeoForAll from "Components/ForSeo/SeoForAll";
 import BrandsServed from "Components/Home/BrandsServed/BrandsServed";
 import Counter from "Components/Home/Counter";
@@ -19,7 +18,7 @@ const WhoWeAre = () => {
       <Testimonial />
       <BrandsServed />
       {/* <ExpertStaff /> */}
-      {/* <WhyChossUs/> */}
+      
       <HomeOrBusiness />
     </> );
 }
