@@ -6,7 +6,7 @@ const StrategyBody = () => {
     <div className="m-3">
       <div>
         <br />
-        <h1>SUSTAINABILITY</h1>
+        <h2 className="mb-3 commonComponentHeader" >SUSTAINABILITY STRATEGY</h2>
         
         <p>
           RONDHAN cares deeply for its communities. A more sustainable world

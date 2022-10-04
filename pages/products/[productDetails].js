@@ -67,8 +67,6 @@ const ProductDetails = () => {
   const singleProd = allProduct.find((prod) => prod.id == router);
 
   return (
-
-    
     <>
       <CommonBanner headerBanner={singleProd?.photo} title={singleProd?.name} />
       <SingleProductDetails singleProd={singleProd} />

@@ -4,7 +4,7 @@ const BuyerDetails = () => {
     return (
         <div className="m-3">
       <div className="mt-5 mb-5">
-        <h2 className="mb-3">
+        <h2 className="mb-3 commonComponentHeader">
           <b>BUYER</b>
         </h2>
         <p>

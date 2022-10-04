@@ -4,7 +4,7 @@ const CattleDetails = () => {
     return (
 <div className="m-3">
       <div className="mt-5 mb-5">
-        <h2 className="mb-3">
+        <h2 className="mb-3 commonComponentHeader">
           <b>CATTLE</b>
         </h2>
         <p>

@@ -5,7 +5,7 @@ const EnvironmentalBody = () => {
     <div className="m-3">
       <div>
         <br />
-        <h1>ENVIRONMENTAL</h1>
+        <h2 className="mb-3 commonComponentHeader">ENVIRONMENTAL</h2>
         <p>
           To be environmentally sustainable means to be aware of resource
           consumption by reducing unnecessary waste and RONDHAN integrates this

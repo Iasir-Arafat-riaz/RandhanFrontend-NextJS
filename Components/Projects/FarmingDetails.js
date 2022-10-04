@@ -3,8 +3,8 @@ import React from 'react';
 const FarmingDetails = () => {
     return (
         <div className="m-3">
-      <div className="mt-5 mb-5">
-        <h2>
+      <div className="mt-5 mb-5 ">
+        <h2 className='mb-3 commonComponentHeader'>
           <b>FARMING</b>
         </h2>
         <p>

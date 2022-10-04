@@ -1,10 +1,11 @@
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 
 const FunderDetails = () => {
-    return (
-        <div className="m-3">
+  return (
+    <div className="m-3">
       <div className="mt-5 mb-5">
-        <h2 className="mb-3">
+        <h2 className="mb-3 commonComponentHeader">
           <b>FUNDER</b>
         </h2>
         <p>
@@ -31,9 +32,16 @@ const FunderDetails = () => {
           impedit inventore praesentium modi laboriosam illum, atque voluptates
           aliquid!
         </p>
+        <div className="mt-2">
+          <Link href="/contact/be-A-Farmer">
+            <a>
+              <button className="thm-btn contact-one__btn ">Be A Farmer</button>
+            </a>
+          </Link>
+        </div>
       </div>
     </div>
-    );
+  );
 };
 
 export default FunderDetails;

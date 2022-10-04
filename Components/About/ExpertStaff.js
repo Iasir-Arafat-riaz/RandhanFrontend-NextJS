@@ -1,14 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import staffShape from "../../styles/images/shapes/team-one-shape.png";
-import staff1 from "public/Images/team/staff1.jpg";
-import staff2 from "../../styles/images/team/team-1-2.jpg";
-import staff3 from "public/Images/team/staff3.jpg";
+
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
 import { BsPinterest } from "react-icons/bs";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
+import Link from "next/link";
 
 const ExpertStaff = () => {
   return (
@@ -26,13 +25,18 @@ const ExpertStaff = () => {
             {/* Team One Single */}
             <div className="team-one__sngle text-center">
               <div className="team-one__img">
-                <Image src="/Images/team/staff1.jpg"  width={400} height={400} alt="image" />
+                <Image
+                  src="/Images/team/staff1.png"
+                  width={400}
+                  height={400}
+                  alt="image"
+                />
                 <div className="team-one__shape">
                   <Image src={staffShape} alt="img" />
                 </div>
               </div>
               <div className="team-one__content">
-                <p className="team-one__title">CEO & FOUNDER</p>
+                <p className="team-one__title">DIRECTOR</p>
                 <h3 className="team-one__name">ASRAFUZZAMAN</h3>
                 <div className="team-one__social-box">
                   <div className="team-one__social">
@@ -50,9 +54,11 @@ const ExpertStaff = () => {
                     </a>
                   </div>
                   <div className="team-one__arrow">
-                    <a href="staff-details.html">
-                      <AiOutlineArrowRight size={20} />
-                    </a>
+                    <Link href="/">
+                      <a>
+                        <AiOutlineArrowRight size={20} />
+                      </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -65,14 +71,19 @@ const ExpertStaff = () => {
             {/* Team One Single */}
             <div className="team-one__sngle text-center">
               <div className="team-one__img">
-                <Image src="/Images/team/staff2.jpeg"  width={400} height={400} alt="image"/>
+                <Image
+                  src="/Images/team/staff2.jpeg"
+                  width={400}
+                  height={400}
+                  alt="image"
+                />
                 <div className="team-one__shape">
                   <Image src={staffShape} alt="img" />
                 </div>
               </div>
               <div className="team-one__content">
-                <p className="team-one__title">Co Founder</p>
-                <h3 className="team-one__name">TOHA HOSSAIN</h3>
+                <p className="team-one__title">MANAGING DIRECTOR</p>
+                <h3 className="team-one__name">MOHAMMAD MAHFUJUL HAQUE</h3>
                 <div className="team-one__social-box">
                   <div className="team-one__social">
                     <a href="#">
@@ -89,9 +100,11 @@ const ExpertStaff = () => {
                     </a>
                   </div>
                   <div className="team-one__arrow">
-                    <a href="staff-details.html">
-                      <AiOutlineArrowRight size={20} />
-                    </a>
+                    <Link href="/">
+                      <a>
+                        <AiOutlineArrowRight size={20} />
+                      </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -104,14 +117,19 @@ const ExpertStaff = () => {
             {/* Team One Single */}
             <div className="team-one__sngle text-center">
               <div className="team-one__img">
-                <Image src="/Images/team/staff3.jpg"  width={400} height={400} alt="image" />
+                <Image
+                  src="/Images/team/staff3.jpeg"
+                  width={400}
+                  height={400}
+                  alt="image"
+                />
                 <div className="team-one__shape">
                   <Image src={staffShape} alt="img" />
                 </div>
               </div>
               <div className="team-one__content">
-                <p className="team-one__title">HR & ADMIN</p>
-                <h3 className="team-one__name">FARIYA HOSSAIN</h3>
+                <p className="team-one__title">SENIOR DIRECTOR</p>
+                <h3 className="team-one__name">KABIR</h3>
                 <div className="team-one__social-box">
                   <div className="team-one__social">
                     <a href="#">
@@ -128,9 +146,11 @@ const ExpertStaff = () => {
                     </a>
                   </div>
                   <div className="team-one__arrow">
-                    <a href="staff-details.html">
-                      <AiOutlineArrowRight size={20} />
-                    </a>
+                    <Link href="/">
+                      <a>
+                        <AiOutlineArrowRight size={20} />
+                      </a>
+                    </Link>
                   </div>
                 </div>
               </div>

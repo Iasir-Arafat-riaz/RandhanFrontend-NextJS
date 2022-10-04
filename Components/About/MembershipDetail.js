@@ -5,7 +5,7 @@ const MembershipDetail = () => {
   return (
     <div>
       <div className="mt-5 p-3">
-        <h2 className="mb-5 text-center">
+        <h2 className="mb-5 text-center commonComponentHeader">
           <b>MEMBERSHIP AND ACCREDITATION</b>
         </h2>
         <div className="row text-center mb-5">

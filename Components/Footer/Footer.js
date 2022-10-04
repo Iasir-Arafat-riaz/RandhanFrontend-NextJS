@@ -180,11 +180,12 @@ const Footer = () => {
                   <h3 className="footer-widget__title">CONTACT</h3>
                   <div className="footer-widget__contact-text">
                     <p>
-                      <FaMapMarkerAlt size={15} /> Corporate Office : H # 54/A, R # 132,
-                      Gulshan Circle-1, Dhaka-1212
+                      <FaMapMarkerAlt size={15} /> Corporate Office : H # 54/A,
+                      R # 132, Gulshan Circle-1, Dhaka-1212
                     </p>
                     <p>
-                      <FaIndustry size={15} /> Factory Address : Danaidah, Boraigram, Natore 6613, Bangladesh 
+                      <FaIndustry size={15} /> Factory Address : Danaidah,
+                      Boraigram, Natore 6613, Bangladesh
                     </p>
                     <p>
                       <AiOutlineMail size={15} /> info@rondhan.com
@@ -195,7 +196,7 @@ const Footer = () => {
                   </div>
                   <Link href="/contact/be-A-Partner">
                     <a>
-                      <p className="footerPartnerBtn">Be A Partner</p>
+                      <p className="footerPartnerBtn">BE A PARTNER</p>
                     </a>
                   </Link>
 
@@ -226,10 +227,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="site-footer__bottom">
-          <div
-            className="site-footer-bottom-shape"
-            
-          ></div>
+          <div className="site-footer-bottom-shape"></div>
           <div className="container">
             <div className="row">
               <div className="col-xl-12">
@@ -237,7 +235,14 @@ const Footer = () => {
                   <p className="site-footer__bottom-text">
                     <b>
                       © 2022 <a href="#">Rondhan.com</a>. All Rights Reserved.
-                      Developed by <a target="_blank" rel="noreferrer" href="https://www.vmsl.com.bd">VMSL</a>
+                      Developed by{" "}
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://www.vmsl.com.bd"
+                      >
+                        VMSL
+                      </a>
                     </b>
                   </p>
                 </div>

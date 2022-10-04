@@ -15,7 +15,7 @@ const EconomicalBody = () => {
     <div className="m-3">
       <div>
         <br />
-        <h1>ECONOMICAL</h1>
+        <h2 className="mb-3 commonComponentHeader">ECONOMICAL</h2>
         <p>
           RONDHAN prioritizes its community while also sustaining long-term
           economic growth in a multitude of ways. We offer training and

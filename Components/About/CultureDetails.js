@@ -5,7 +5,7 @@ const CultureDetails = () => {
   return (
     <div className="mt-5 mb-5">
       <div className="m-3">
-        <h2 className="text-center">
+        <h2 className="text-center commonComponentHeader">
           <b>OUR VALUES</b>
         </h2>
         <div className="row">

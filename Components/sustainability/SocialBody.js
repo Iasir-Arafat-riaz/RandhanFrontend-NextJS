@@ -6,7 +6,7 @@ const SocialBody = () => {
     <div className="m-3">
       <div>
         <br />
-        <h1>SOCIAL</h1>
+        <h2 className="mb-3 commonComponentHeader">SOCIAL</h2>
         <p>
           Companies have both a direct and indirect impact on its employees,
           clients and their communities. This is why RONDHAN puts its best foot

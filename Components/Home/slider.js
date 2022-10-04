@@ -10,7 +10,7 @@ import Image from "next/image";
 //import images from existing folder
 import first from "public/Images/backgroundImg/sliderBackg0.png";
 import second from "public/Images/backgroundImg/nokshiKatha.png";
-import third from "public/Images/backgroundImg/sliderBackg2.png";
+import third from "public/Images/backgroundImg/sliderBackg03.png";
 import fourth from "public/Images/backgroundImg/sliderBackg3.png";
 import fifth from "public/Images/backgroundImg/sliderBackg4.png";
 import sixth from "public/Images/backgroundImg/sliderBackg5.png";
@@ -40,26 +40,26 @@ function Slider() {
         {/* <SwiperSlide ><div style={{backgroundImage:"url(https://i.ibb.co/wy6wQr4/main-slider-1-1.jpg)"}}></div></SwiperSlide> */}
         <SwiperSlide className="swiperCustom">
           {" "}
-          <Image  src={first} alt="image"/>{" "}
+          <Image src={first} alt="image" />{" "}
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={second} alt="image"/>
+          <Image src={second} alt="image" />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={third} alt="image"/>
+          <Image src={third} alt="image" />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={fourth} alt="image"/>
+          <Image src={fourth} alt="image" />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={fifth} alt="image"/>
+          <Image src={fifth} alt="image" />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={sixth} alt="image"/>
+          <Image src={sixth} alt="image" />
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <Image src={seventh} alt="image"/>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </>
   );
