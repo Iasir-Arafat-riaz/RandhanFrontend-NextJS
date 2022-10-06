@@ -62,6 +62,8 @@ const ServiceProvide = () => {
           style={{
             backgroundImage: `url(${serviceProvBg.src})`,
             backgroundAttachment: "fixed",
+            backgroundRepeat:"no-repeat",
+            backgroundSize:"cover"
           }}
         >
           <div className="row">

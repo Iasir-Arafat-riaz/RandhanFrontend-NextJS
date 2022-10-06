@@ -180,18 +180,18 @@ const Footer = () => {
                   <h3 className="footer-widget__title">CONTACT</h3>
                   <div className="footer-widget__contact-text">
                     <p>
-                      <FaMapMarkerAlt size={15} /> Corporate Office : H # 54/A,
+                      <FaMapMarkerAlt size={15} className="me-1"/> Corporate Office : H # 54/A,
                       R # 132, Gulshan Circle-1, Dhaka-1212
                     </p>
                     <p>
-                      <FaIndustry size={15} /> Factory Address : Danaidah,
+                      <FaIndustry size={15} className="me-1"/> Factory Address : Danaidah,
                       Boraigram, Natore 6613, Bangladesh
                     </p>
                     <p>
-                      <AiOutlineMail size={15} /> info@rondhan.com
+                      <AiOutlineMail size={15} className="me-1"/> info@rondhan.com
                     </p>
                     <p>
-                      <FiPhoneCall size={15} /> +8801738022033
+                      <FiPhoneCall size={15} className="me-1"/> +8801738022033
                     </p>
                   </div>
                   <Link href="/contact/be-A-Partner">
