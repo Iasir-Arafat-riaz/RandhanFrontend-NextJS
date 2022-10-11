@@ -26,7 +26,7 @@ import Test from "../Components/Test";
 
 export default function Home() {
   return (
-    <>
+    <div >
     <Head>
       <title>Rondhan</title>
     </Head>
@@ -44,6 +44,6 @@ export default function Home() {
       <Testimonial/>
       {/* <Test/> */}
       {/* <LatestNews/> */}
-    </>
+    </div>
   );
 }

@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      <section>
+      <section className="forCursor">
         {/* <Navigation/> */}
         <NavBar />
 
