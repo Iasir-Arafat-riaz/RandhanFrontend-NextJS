@@ -26,8 +26,8 @@ const EconomicalBody = () => {
           market. Our focus on acquiring more international outsourcing services
           will enhance the inflow of remittance in Bangladesh.
         </p>
-        <h4 className="mx-5">{num}</h4>
-        <button onClick={handleLudu} className="prodButton mt-2">chess yourself</button>
+        {/* <h4 className="mx-5">{num}</h4> */}
+        <button onClick={handleLudu} className="prodButton mt-2">{num}</button>
       </div>
     </div>
   );

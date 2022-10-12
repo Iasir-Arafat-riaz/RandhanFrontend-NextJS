@@ -1955,7 +1955,6 @@ ul {
   z-index: 1;
   box-shadow: -1px 0px 24px 4px rgba(0, 0, 0, 0.568);
   line-height: 12px;
-
 }
 
 .project-one__img:before {
@@ -1980,7 +1979,6 @@ ul {
 }
 
 .project-one__img img {
-  
   width: 100%;
   -webkit-transform: scale(1);
   transform: scale(1);
