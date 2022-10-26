@@ -26,7 +26,7 @@ const Projects = () => {
         </div>
         <div className="row p-3 projectMainDiv">
           <div
-            className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp mx-3"
+            className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp mx-3 singleProject"
             data-wow-delay="100ms"
           >
             {/* Project One Single */}
@@ -52,7 +52,7 @@ const Projects = () => {
             </div>
           </div>
           <div
-            className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp mx-3"
+            className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp mx-3 singleProject"
             data-wow-delay="200ms"
           >
             {/* Project One Single */}
@@ -78,7 +78,7 @@ const Projects = () => {
             </div>
           </div>
           <div
-            className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp mx-3"
+            className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp mx-3 singleProject"
             data-wow-delay="300ms"
           >
             {/* Project One Single */}
@@ -104,7 +104,7 @@ const Projects = () => {
             </div>
           </div>
           <div
-            className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp mx-3"
+            className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp mx-3 singleProject"
             data-wow-delay="400ms"
           >
             {/* Project One Single */}
@@ -130,7 +130,7 @@ const Projects = () => {
             </div>
           </div>
           <div
-            className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp mx-3"
+            className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp mx-3 singleProject"
             data-wow-delay="400ms"
           >
             {/* Project One Single */}

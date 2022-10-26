@@ -9,7 +9,7 @@ const Career = ({ data }) => {
   console.log("hilu", data?.rows);
   return (
     <>
-      <SeoForAll title="Career|Rondhan"/>
+      <SeoForAll title="Career|Rondhan" />
       <CareerHeader />
       <Jobs allJobs={data?.rows} />
 
@@ -23,8 +23,7 @@ export default Career;
 export async function getServerSideProps() {
   const config = {
     headers: {
-      Authorization:
-        `${process.env.CAREER_KEY}`,
+      Authorization: `${process.env.CAREER_KEY}`,
     },
   };
   const res = await axios(

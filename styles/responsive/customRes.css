@@ -171,6 +171,9 @@
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .singleProject{
+    margin-bottom: 30px;
+  }
   .videoContent {
     position: relative;
   }
@@ -446,6 +449,9 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+  .singleProject{
+    margin-bottom: 30px;
+  }
   .project-one {
     margin-top: 30px;
   }

@@ -3,18 +3,21 @@ import ApplyJob from "../../Components/Career/ApplyJob";
 import CommonBanner from "Components/sustainability/CommonBanner";
 const SingleJob = ({ data }) => {
   console.log("here datas", data);
-  const { title, description,id } = data;
+  const { title, description, id } = data;
   return (
     <div>
-      <CommonBanner headerBanner={`/Images/resources/hiring.png`} title={title}/> 
+      <CommonBanner
+        headerBanner={`/Images/resources/hiring.png`}
+        title={title}
+      />
       <div className="m-5">
-      <h2 className="m-5">{title}</h2>
-      <div dangerouslySetInnerHTML={{ __html: description }} />
-      {/* job apply form */}
-      <div>
-        <ApplyJob id={id} />
+        <h2 className="m-5">{title}</h2>
+        <div dangerouslySetInnerHTML={{ __html: description }} />
+        {/* job apply form */}
+        <div>
+          <ApplyJob id={id} />
+        </div>
       </div>
-    </div>
     </div>
   );
 };

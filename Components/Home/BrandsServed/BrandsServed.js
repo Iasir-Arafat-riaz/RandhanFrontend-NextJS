@@ -8,7 +8,7 @@ import "swiper/css/scrollbar";
 import Brand from "./Brand";
 import brandImg1 from "../../../public/Images/Brand/iglooLogo.png";
 import brandImg2 from "../../../public/Images/Brand/pran.png";
-import brandImg3 from "../../../public/Images/Brand/square.png";
+import brandImg3 from "../../../public/Images/Brand/vmsl.png";
 import brandImg4 from "../../../public/Images/Brand/beximco.png";
 import brandImg5 from "../../../public/Images/Brand/bashundhara.png";
 import clientsBg from "../../../public/Images/backgroundImg/ourClients.png";
