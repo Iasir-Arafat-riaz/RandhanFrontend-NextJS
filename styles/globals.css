@@ -2701,7 +2701,7 @@ ul {
 .footer-widget__about {
   position: relative;
   display: block;
-  margin-right: 70px;
+  margin-right: 80px;
 }
 
 .footer-widget__about-text-box {
@@ -2711,9 +2711,11 @@ ul {
 }
 
 .footer-widget__about-text {
-  color: #a5b9ad;
-  line-height: 34px;
+  /* color: #a5b9ad; */
+  color: white;
+  line-height: 24px;
   margin: 0;
+  font-size: 13px;
 }
 
 .footer-widget__newsletter-form {

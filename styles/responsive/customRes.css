@@ -447,6 +447,10 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+  .contactBeAPartner input[type="text"],
+.contactBeAPartner input[type="email"]{
+  width: 90%;
+}
   .singleProject {
     margin-bottom: 30px;
   }
