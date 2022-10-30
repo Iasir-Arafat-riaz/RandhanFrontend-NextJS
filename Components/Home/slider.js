@@ -8,12 +8,12 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 import Image from "next/image";
 
 //import images from existing folder
-import first from "public/Images/backgroundImg/sliderBackg0.png";
-import second from "public/Images/backgroundImg/nokshiKatha.png";
-import third from "public/Images/backgroundImg/sliderBackg03.png";
-import fourth from "public/Images/backgroundImg/sliderBackg3.png";
-import fifth from "public/Images/backgroundImg/sliderBackg4.png";
-import sixth from "public/Images/backgroundImg/sliderBackg5.png";
+import first from "public/Images/backgroundImg/sliderBackgOne.png";
+import second from "public/Images/backgroundImg/nokshiKathaTwo.png";
+import third from "public/Images/backgroundImg/sliderBackgThree.png";
+import fourth from "public/Images/backgroundImg/sliderBackgFour.png";
+import fifth from "public/Images/backgroundImg/sliderBackgFive.png";
+import sixth from "public/Images/backgroundImg/sliderBackgSix.png";
 import seventh from "public/Images/backgroundImg/sliderBackg6.png";
 
 function Slider() {

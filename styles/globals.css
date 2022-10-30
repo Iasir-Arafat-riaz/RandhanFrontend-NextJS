@@ -948,7 +948,8 @@ ul {
   display: block;
   overflow: hidden;
   z-index: 1;
-  height: 150px;
+  line-height: 10px;
+  /* height: 150px; */
 }
 
 .industries-one__img:before {

@@ -123,8 +123,6 @@
     margin-top: 25px;
   }
 
-  
-
   .project-details__details li + li {
     margin-left: 40px;
   }
@@ -171,7 +169,7 @@
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .singleProject{
+  .singleProject {
     margin-bottom: 30px;
   }
   .videoContent {
@@ -449,7 +447,7 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
-  .singleProject{
+  .singleProject {
     margin-bottom: 30px;
   }
   .project-one {
@@ -809,8 +807,6 @@
     width: 90%;
   }
 
-  
-
   .wostin-for-bob__left .section-title {
     margin-bottom: 38px;
   }
@@ -928,8 +924,6 @@
   .error-page {
     padding: 100px 0 120px;
   }
-
-
 
   .news-details__pagenation li + li {
     margin-left: 0;

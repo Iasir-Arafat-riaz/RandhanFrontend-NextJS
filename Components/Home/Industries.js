@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import industryImg4 from "public/Images/resources/agrotech.png";
 import industryImg1 from "public/Images/resources/consumer.png";
-import industryImg2 from "public/Images/weWorkFor/empoweredFarmer.png";
+import industryImg2 from "public/Images/resources/empoweredFarmer.png";
 import industryImg3 from "public/Images/resources/employment.png";
 import { MdAgriculture } from "react-icons/md";
 import { FaUserTie } from "react-icons/fa";

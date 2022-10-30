@@ -109,7 +109,7 @@ const ServiceProvide = () => {
                   <Card.Text className="text-center serviceProvDetail">
                     We source directly from the farmers and supply agriculture
                     produce in bulk quantity to large enterprises, modern trade
-                    retailers
+                    retailers Productivity.
                   </Card.Text>
                 </Card.Body>
               </Card></a></Link>
