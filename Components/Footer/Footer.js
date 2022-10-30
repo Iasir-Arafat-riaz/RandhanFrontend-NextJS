@@ -97,7 +97,7 @@ const Footer = () => {
                     <p className="footer-widget__about-text">
                       {/* Lorem ipsum dolor sited ame etur adi pisicing elit tempor
                       labore. */}
-                      RONDHAN is platform for agriculture and Farmer, Dealer, Partner, Retailer Management System, We Work For Bangladesh .
+                      RONDHAN is platform for agriculture and Farmer, Dealer, Partner, Retailer Management System, We Work For BANGLADESH .
                     </p>
                   </div>
                   {/* <form className="footer-widget__newsletter-form">
