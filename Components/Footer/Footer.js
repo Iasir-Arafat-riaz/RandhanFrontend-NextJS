@@ -243,7 +243,7 @@ const Footer = () => {
                         rel="noreferrer"
                         href="https://www.vmsl.com.bd"
                       >
-                        VMSL
+                        Iasir Arafat Riaz
                       </a>
                     </b>
                   </p>
