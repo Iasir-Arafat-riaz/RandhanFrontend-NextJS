@@ -236,7 +236,7 @@ const Footer = () => {
                 <div className="site-footer__bottom-inner">
                   <p className="site-footer__bottom-text">
                     <b>
-                      © 2022 <a href="#">Rondhan.com</a>. All Rights Reserved.
+                      © {new Date().getFullYear()} <a href="#">Rondhan.com</a>. All Rights Reserved.
                       Developed by{" "}
                       <a
                         target="_blank"
